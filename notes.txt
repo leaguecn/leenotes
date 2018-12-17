@@ -1,0 +1,9 @@
+The tutorial of git on linux
+
+step1. git init
+step2. create several file using "vim <file>..." and add to git cmdline using "git <file>"
+step3. option, you can create some commit for the new file using "git commit -m "...""
+step4. check git status using: git status
+step5. add remote repo address using: git remote add origin <https>
+step6. push branch using: git push -u origin <branch>
+
