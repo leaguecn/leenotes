@@ -6,7 +6,7 @@
 They’re building the technologies of the future, from stretchy electronics to new ways to test cancer drugs.
 
 ### James Dahlman, 31     
-![James Dahlman](img/tr35-james-dahlman.png)
+![James Dahlman](https://github.com/leaguecn/leenotes/raw/master/img/tr35-james-dahlman.png)
 
  * Georgia technologies
 
@@ -22,7 +22,7 @@ Dahlman has invented a radically different process that involves encoding each n
 —Dan Solomon
 
 ### Shreya Dave, 30
-![Shreya Dave](img/tr35-shreya-dave.2.png)
+![Shreya Dave](https://github.com/leaguecn/leenotes/raw/master/img/tr35-shreya-dave.2.png)
 
  * Via Separations
 
@@ -40,7 +40,7 @@ Her company is currently focusing on the food and beverage industry, but Dave th
 
 -------------------
 ### Shinjini Kundu, 27
-![Shinjini Kundu](img/tr35-shinjini-kundu.2.png)
+![Shinjini Kundu](https://github.com/leaguecn/leenotes/raw/master/img/tr35-shinjini-kundu.2.png)
 
  * Carnegie Mellon University
 
@@ -59,7 +59,7 @@ Kundu’s system allows humans to look through the eyes of the computer to disco
 ------------------
 
 ### Barbarita Lara, 32
-![Barbarita Lara](img/tr35-barbarita-lara-bw-2.png)
+![Barbarita Lara](https://github.com/leaguecn/leenotes/raw/master/img/tr35-barbarita-lara-bw-2.png)
 
  * Emercom
 
@@ -77,7 +77,7 @@ Emercom, the startup she founded to develop and market the platform, is now in d
 
 
 ### Will McLean, 31
-![Will McLean](img/tr35-willmclean.png)
+![Will McLean](https://github.com/leaguecn/leenotes/raw/master/img/tr35-willmclean.png)
 
  * Frequency Therapeutics
 
@@ -98,7 +98,7 @@ On the strength of this discovery, McLean and colleagues established Frequency T
 
 
 ### Manan Suri, 31
-![Manan Suri](img/tr35-manan-suri.2.png)
+![Manan Suri](https://github.com/leaguecn/leenotes/raw/master/img/tr35-manan-suri.2.png)
 
  * Indian Institute of Technology, Delhi
 
@@ -115,7 +115,7 @@ Suri recognized that he could harness the inherent variability of eNVMs to build
 
 --------------
 ### Sheng Xu, 34
-![Sheng Xu](img/tr35-sheng-xu.png)
+![Sheng Xu](https://github.com/leaguecn/leenotes/raw/master/img/tr35-sheng-xu.png)
 
  * University of California, San Diego
 
@@ -133,7 +133,7 @@ Xu opted to bond only tiny sections of the components to the elastic material an
 -------------------
 
 ### Huanping Zhou, 34
-![Huanping Zhou](img/tr35-huanping-zhoa.2.png)
+![Huanping Zhou](https://github.com/leaguecn/leenotes/raw/master/img/tr35-huanping-zhoa.2.png)
 
  * Peking University
 
@@ -163,7 +163,7 @@ Perovskite-based solar cells tend to degrade faster than silicon cells, so Zhou 
 ----
 
 ### Natalya Bailey, 31
-![](img/tr35-natalya-bailey.2_0.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-natalya-bailey.2_0.png)
 
  * Accion Systems
 
@@ -181,7 +181,7 @@ Bailey founded Accion Systems, just outside Boston, to commercialize the technol
 
 -----
 ### Jonas Cleveland, 31
-![](img/tr35-jonas-cleveland.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-jonas-cleveland.png)
 
  * COSY Robotics
 
@@ -196,7 +196,7 @@ Cleveland’s company, COSY (for Cognitive Operational Systems), is creating the
 
 -----
 ### Elizabeth Nyeko, 34
-![](img/tr35-elizabeth-nyeko.2.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-elizabeth-nyeko.2.png)
 
  * Modularity Grid
 
@@ -215,7 +215,7 @@ Nyeko, who was born in northern Uganda but fled from civil war there as a child,
 
 -------
 ### Yin Qi, 30
-![](img/tr35-qi-yin.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-qi-yin.png)
 
  * Megvii
 
@@ -260,7 +260,7 @@ So Saxena, a robotics researcher, decided to build a better system.
 
 ------
 ### William Woodford, 32
-![William Woodford](img/tr35-william-woodford.2.png)
+![William Woodford](https://github.com/leaguecn/leenotes/raw/master/img/tr35-william-woodford.2.png)
 
  * Form Energy
 
@@ -305,7 +305,7 @@ Growing up near Hangzhou, where the Alipay team is based, Xu was not interested 
 ----------
 
 ### Alice Zhang, 29
-![Alice Zhang](img/tr35-alice-zhang.2.png)
+![Alice Zhang](https://github.com/leaguecn/leenotes/raw/master/img/tr35-alice-zhang.2.png)
 
  * Verge Genomics
 
@@ -329,7 +329,7 @@ Verge is developing machine--learning models that identify key genes within a di
 ----
 
 ### Shehar Bano, 31
-![](img/tr35-shehar-bano.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-shehar-bano.png)
 
  * University College London
 
@@ -350,7 +350,7 @@ Bano has joined a wave of computer scientists working to protect the freedom of 
 
 ----
 ### Niki Bayat, 32
-![](img/tr35-niki-bayat.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-niki-bayat.png)
 
  * Aesculatech
 
@@ -367,7 +367,7 @@ In 2016, while still working on her PhD, Bayat started AesculaTech to commercial
 
 ----
 ### Marzyeh Ghassemi, 33
-![](img/tr35-marzyeh-ghassemi.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-marzyeh-ghassemi.png)
 
  * University of Toronto
 
@@ -386,7 +386,7 @@ This fall Ghassemi joins the University of Toronto and the Vector Institute, whe
 
 ----
 ### Archana Kamal, 34
-![](img/tr35-archana-kamal.2.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-archana-kamal.2.png)
 
  * University of Massachusetts, Lowell
 
@@ -404,7 +404,7 @@ Kamal’s innovation was to slightly alter the path of the transmission of light
 
 ----
 ### Brenden Lake, 31
-![](img/tr35-brendan-lake.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-brendan-lake.png)
 
  * New York University
 
@@ -423,7 +423,7 @@ Getting machines to learn the way humans do could prove crucial for AI applicati
 ----
 
 ### Adam Marblestone, 31
-![](img/tr35-adam-marblestone.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-adam-marblestone.png)
 
  * Kernel
 
@@ -441,7 +441,7 @@ As chief strategy officer at Kernel, he’s marshalling a network of leading res
 
 ----
 ### Prineha Narang, 28
-![](img/tr35-prineha-narang.2.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-prineha-narang.2.png)
 
  * Harvard University
 
@@ -462,7 +462,7 @@ By studying these excited states, Narang is developing approaches that could lea
 
 ----
 ### Menno Veldhorst, 33
-![](img/tr35-menno-veldhorst.2.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-menno-veldhorst.2.png)
 
  * Delft University
 
@@ -493,7 +493,7 @@ What’s most exciting to Veldhorst is that—just as with the transistor and th
 
 
 ### Hera Hussain, 28
-![](img/tr35-hera-hussain.2_0.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-hera-hussain.2_0.png)
 
  * Chayn
 
@@ -514,7 +514,7 @@ Hussain continues to push Chayn to harness appropriate technologies to deepen it
 ----------
 
 ### Mustafa Suleyman, 33
-![](img/tr35-mustafa-suleyman_0.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-mustafa-suleyman_0.png)
 
  * DeepMind
 
@@ -533,7 +533,7 @@ Last year, Suleyman launched the DeepMind Ethics & Society unit to design system
 
 ------
 ### Minmin Yen, 29
-![](img/tr35-mimi-yen.2.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-mimi-yen.2.png)
 
  * PhagePro
 
@@ -559,7 +559,7 @@ Yen, who earned a PhD in molecular microbiology at Tufts University, says bacter
 
 ----
 ### Joy Buolamwini, 28
-![](img/tr35-joy-buolamwini.2_0.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-joy-buolamwini.2_0.png)
 
  * MIT Media Lab and Algorithmic Justice League
 
@@ -578,7 +578,7 @@ A former Rhodes scholar and Fulbright fellow, she founded the Algorithmic Justic
 
 ----
 ### Alessandro Chiesa, 30
-![](img/tr35-alessandro-chiesa.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-alessandro-chiesa.png)
 
  * University of California, Berkeley
 
@@ -597,7 +597,7 @@ Zcash has huge implications for transactions that might otherwise reveal a buyer
 
 ----
 ### Chelsea Finn, 25
-![](img/tr35-chelsea-finn.2.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-chelsea-finn.2.png)
 
  * Berkeley Artificial Intelligence Lab
 
@@ -618,7 +618,7 @@ Finn thinks a good intermediate goal for her robots is to teach them how to set 
 ----
 
 ### Alexandre Rebert, 28
-![](img/tr35-alexandre-rebert.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-alexandre-rebert.png)
 
  * ForAllSecure
 
@@ -639,7 +639,7 @@ Rebert led the team creating Mayhem while working with ForAllSecure, the Pittsbu
 
 ----
 ### Nabiha Saklayen, 28
-![](img/tr35-nabiha-saklayen.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-nabiha-saklayen.png)
 
  * Cellino Biotech
 
@@ -663,7 +663,7 @@ different fields,” she says.
 
 ----
 ### Julian Schrittwieser, 25
-![](img/tr35-julian-schrittwieser.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-julian-schrittwieser.png)
 
  * DeepMind
 
@@ -681,7 +681,7 @@ Schrittwieser, an Austrian native, is the lead software engineer on the AlphaGo 
 
 -----
 ### John Schulman, 30
-![](img/tr35-john-schulman.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-john-schulman.png)
 
  * OpenAI
 
@@ -703,7 +703,7 @@ These algorithms, once trained, might be applied in the real world, and they can
 ----
 
 ### Humsa Venkatesh, 32
-![](img/tr35-humsa-venkatesh.png)
+![](https://github.com/leaguecn/leenotes/raw/master/img/tr35-humsa-venkatesh.png)
 
  * Stanford University
 
