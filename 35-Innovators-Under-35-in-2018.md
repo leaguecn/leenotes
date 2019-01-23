@@ -49,7 +49,7 @@
 
 <!-- /MarkdownTOC -->
 
-
+----------
 
 ## Inventors	
 They’re building the technologies of the future, from stretchy electronics to new ways to test cancer drugs.
@@ -70,6 +70,8 @@ Dahlman has invented a radically different process that involves encoding each n
 
 —Dan Solomon
 
+---------------
+
 ### Shreya Dave, 30
 ![Shreya Dave](https://github.com/leaguecn/leenotes/raw/master/img/tr35-shreya-dave.2.png)
 
@@ -88,6 +90,7 @@ Her company is currently focusing on the food and beverage industry, but Dave th
 —Dan Solomon
 
 -------------------
+
 ### Shinjini Kundu, 27
 ![Shinjini Kundu](https://github.com/leaguecn/leenotes/raw/master/img/tr35-shinjini-kundu.2.png)
 
