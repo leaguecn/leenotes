@@ -23,7 +23,7 @@ For this year, a new technique in artificial intelligence called GANs is giving 
     - [Zero-Carbon Natural Gas](#Zero-Carbon-Natural-Gas)
     - [Perfect Online Privacy](#Perfect-Online-Privacy)
     - [Genetic Fortune-Telling](#Genetic-Fortune-Telling)
-    - [Materials’ Quantum Leap](#Materials’-Quantum-Leap)
+    - [Materials’ Quantum Leap](#Materials-Quantum-Leap)
 
 
 
