@@ -1,6 +1,4 @@
 
-
-
 # [10 Breakthrough Technologies 2018](https://www.technologyreview.com/lists/technologies/2018/)
 
 
@@ -12,20 +10,20 @@ For this year, a new technique in artificial intelligence called GANs is giving 
 
 —The Editors
 
-<!-- MarkdownTOC -->
+<!-- my TOC manual gereration-->
+- [10 Breakthrough Technologies 2018](#10 Breakthrough Technologies 2018)
+    - [3-D Metal Printing](#3-D Metal Printing)
+    - [Artificial Embryos](#Artificial Embryos)
+    - [Sensing City](#Sensing City)
+    - [AI for Everybody](#AI for Everybody) 
+    - [Dueling Neural Networks](#Dueling Neural Networks)
+    - [Babel-Fish Earbuds](#Babel-Fish Earbuds)
+    - [Zero-Carbon Natural Gas](#Zero-Carbon Natural Gas)
+    - [Perfect Online Privacy](#Perfect Online Privacy)
+    - [Genetic Fortune-Telling](#Genetic Fortune-Telling)
+    - [Materials’ Quantum Leap](#Materials’ Quantum Leap)
 
-- 3-D Metal Printing
-- Artificial Embryos
-- Sensing City
-- AI for Everybody
-- Dueling Neural Networks
-- Babel-Fish Earbuds
-- Zero-Carbon Natural Gas
-- Perfect Online Privacy
-- Genetic Fortune-Telling
-- Materials’ Quantum Leap
 
-<!-- /MarkdownTOC -->
 
 ----
 
