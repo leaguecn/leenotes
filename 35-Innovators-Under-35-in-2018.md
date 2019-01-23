@@ -2,6 +2,55 @@
 
 **W**e’ve been presenting our list of innovators under 35 for 18 years, long enough to spot some trends. You won’t find a lot of artificial-intelligence innovation in the early days of the list, but AI now dominates. And the list has grown more gender equitable. It was once male-dominated, but this year, for the first time, it includes more women than men. We hope the list gives you a sense of what’s coming next, and what kinds of people are making it happen.
 
+# Content
+<!-- MarkdownTOC levels="1,2,3" autolink="true" style="ordered" -->
+
+1. [Inventors](#inventors)
+    1. [James Dahlman, 31](#james-dahlman-31)
+    1. [Shreya Dave, 30](#shreya-dave-30)
+    1. [Shinjini Kundu, 27](#shinjini-kundu-27)
+    1. [Barbarita Lara, 32](#barbarita-lara-32)
+    1. [Will McLean, 31](#will-mclean-31)
+    1. [Manan Suri, 31](#manan-suri-31)
+    1. [Sheng Xu, 34](#sheng-xu-34)
+    1. [Huanping Zhou, 34](#huanping-zhou-34)
+1. [Entrepreneurs](#entrepreneurs)
+    1. [Natalya Bailey, 31](#natalya-bailey-31)
+    1. [Jonas Cleveland, 31](#jonas-cleveland-31)
+    1. [Elizabeth Nyeko, 34](#elizabeth-nyeko-34)
+    1. [Yin Qi, 30](#yin-qi-30)
+    1. [Ashutosh Saxena, 34](#ashutosh-saxena-34)
+    1. [William Woodford, 32](#william-woodford-32)
+    1. [Ji Xu, 33](#ji-xu-33)
+    1. [Alice Zhang, 29](#alice-zhang-29)
+1. [Visionaries](#visionaries)
+    1. [Shehar Bano, 31](#shehar-bano-31)
+    1. [Niki Bayat, 32](#niki-bayat-32)
+    1. [Marzyeh Ghassemi, 33](#marzyeh-ghassemi-33)
+    1. [Archana Kamal, 34](#archana-kamal-34)
+    1. [Brenden Lake, 31](#brenden-lake-31)
+    1. [Adam Marblestone, 31](#adam-marblestone-31)
+    1. [Prineha Narang, 28](#prineha-narang-28)
+    1. [Menno Veldhorst, 33](#menno-veldhorst-33)
+1. [Humanitarians](#humanitarians)
+    1. [Hera Hussain, 28](#hera-hussain-28)
+    1. [Mustafa Suleyman, 33](#mustafa-suleyman-33)
+    1. [Minmin Yen, 29](#minmin-yen-29)
+1. [Pioneers](#pioneers)
+    1. [Joy Buolamwini, 28](#joy-buolamwini-28)
+    1. [Alessandro Chiesa, 30](#alessandro-chiesa-30)
+    1. [Chelsea Finn, 25](#chelsea-finn-25)
+    1. [Alexandre Rebert, 28](#alexandre-rebert-28)
+    1. [Nabiha Saklayen, 28](#nabiha-saklayen-28)
+    1. [Julian Schrittwieser, 25](#julian-schrittwieser-25)
+    1. [John Schulman, 30](#john-schulman-30)
+    1. [Humsa Venkatesh, 32](#humsa-venkatesh-32)
+1. [Reference](#reference)
+
+<!-- /MarkdownTOC -->
+
+
+
 ## Inventors	
 They’re building the technologies of the future, from stretchy electronics to new ways to test cancer drugs.
 
