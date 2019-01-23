@@ -1,3 +1,9 @@
+<!-- add mathjax lib  -->
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
 ## MathJax Text
 
 $h(x) = \theta_0 + \theta_1 x$  
