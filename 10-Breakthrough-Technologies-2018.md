@@ -11,6 +11,8 @@ For this year, a new technique in artificial intelligence called GANs is giving 
 —The Editors
 
 <!-- my TOC manual gereration-->
+
+
 - [10 Breakthrough Technologies 2018](#10 Breakthrough Technologies 2018)
     - [3-D Metal Printing](#3-D Metal Printing)
     - [Artificial Embryos](#Artificial Embryos)
