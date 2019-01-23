@@ -1,8 +1,5 @@
 <!-- add mathjax lib  -->
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
+[](https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML)
 
 ## MathJax Text
 
