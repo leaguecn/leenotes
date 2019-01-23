@@ -1,4 +1,7 @@
-# [10 BREAKTHROUGH TECHNOLOGIES 2018](https://www.technologyreview.com/lists/technologies/2018/)
+
+
+
+# [10 Breakthrough Technologies 2018](https://www.technologyreview.com/lists/technologies/2018/)
 
 
 Dueling neural networks. Artificial embryos. AI in the cloud. Welcome to our annual list of the 10 technology advances we think will shape the way we work and live now and for years to come.
@@ -9,18 +12,20 @@ For this year, a new technique in artificial intelligence called GANs is giving 
 
 —The Editors
 
-# Content
-> ### 1. 3-D Metal Printing    
-> ### 2. Artificial Embryos    
-> ### 3. Sensing City    
-> ### 4. AI for Everybody
-> ### 5. Dueling Neural Networks
-> ### 6. Babel-Fish Earbuds
-> ### 7. Zero-Carbon Natural Gas
-> ### 8. Perfect Online Privacy
-> ### 9. Genetic Fortune-Telling
-> ### 10. Materials’ Quantum Leap 
+<!-- MarkdownTOC -->
 
+- 3-D Metal Printing
+- Artificial Embryos
+- Sensing City
+- AI for Everybody
+- Dueling Neural Networks
+- Babel-Fish Earbuds
+- Zero-Carbon Natural Gas
+- Perfect Online Privacy
+- Genetic Fortune-Telling
+- Materials’ Quantum Leap
+
+<!-- /MarkdownTOC -->
 
 ----
 
