@@ -1,3 +1,4 @@
+
 ## MathJax Text
 
 $h(x) = \theta_0 + \theta_1 x$  
@@ -5,4 +6,8 @@ $a = \sin^{2}(\Delta \phi/2) + \cos(\phi_{1})\cos(\phi_{2})\sin^{2}(\Delta \lamb
 $c = 2 \arcsin(\sqrt{a})$   
 $d = rc$
 
+<<<<<<< HEAD
 https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+=======
+![Equation](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+>>>>>>> f2550f33593cc4bd1bf300134a7d9dcbdf8aaf70
