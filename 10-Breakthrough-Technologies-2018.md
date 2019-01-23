@@ -10,8 +10,7 @@ For this year, a new technique in artificial intelligence called GANs is giving 
 
 —The Editors
 
-<!-- my TOC manual gereration-->
-
+<!-- my TOC manual gereration
 
 - [10 Breakthrough Technologies 2018](#10-Breakthrough-Technologies-2018)
     - [3-D Metal Printing](#3-D-Metal-Printing)
@@ -24,6 +23,25 @@ For this year, a new technique in artificial intelligence called GANs is giving 
     - [Perfect Online Privacy](#Perfect-Online-Privacy)
     - [Genetic Fortune-Telling](#Genetic-Fortune-Telling)
     - [Materials’ Quantum Leap](#Materials-Quantum-Leap)
+-->
+
+<!-- https://packagecontrol.io/packages/MarkdownTOC -->
+
+# Content
+<!-- MarkdownTOC levels="1,2,3" autolink="true" style="ordered" -->
+
+1. [3-D Metal Printing](#3-d-metal-printing)
+1. [Artificial Embryos](#artificial-embryos)
+1. [Sensing City](#sensing-city)
+1. [AI for Everybody](#ai-for-everybody)
+1. [Dueling Neural Networks](#dueling-neural-networks)
+1. [Babel-Fish Earbuds](#babel-fish-earbuds)
+1. [Zero-Carbon Natural Gas](#zero-carbon-natural-gas)
+1. [Perfect Online Privacy](#perfect-online-privacy)
+1. [Genetic Fortune-Telling](#genetic-fortune-telling)
+1. [Materials’ Quantum Leap](#materials%E2%80%99-quantum-leap)
+
+<!-- /MarkdownTOC -->
 
 
 
