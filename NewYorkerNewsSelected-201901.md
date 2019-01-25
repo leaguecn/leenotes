@@ -4,7 +4,7 @@
 ### The Case for Banning Laptops in the Classroom
 + *By Dan RockmoreJune 6, 2014*
 
-![](img/laptops-in-classroom-580.jpg)
+![](https://github.com/leaguecn/leenotes/raw/master/img/laptops-in-classroom-580.jpg)
 
 ***A colleague of mine in the department of computer science at Dartmouth recently sent an e-mail to all of us on the faculty. The subject line read: “Ban computers in the classroom?” The note that followed was one sentence long: “I finally saw the light today and propose we ban the use of laptops in class.”***
 
