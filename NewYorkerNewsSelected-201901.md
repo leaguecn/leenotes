@@ -1,7 +1,7 @@
 
 
 
-### The Case for Banning Laptops in the Classroom
+### [The Case for Banning Laptops in the Classroom](https://www.newyorker.com/tech/annals-of-technology/the-case-for-banning-laptops-in-the-classroom)
 + *By Dan RockmoreJune 6, 2014*
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/laptops-in-classroom-580.jpg)
