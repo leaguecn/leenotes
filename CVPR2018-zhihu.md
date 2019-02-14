@@ -1,12 +1,7 @@
 
-<<<<<<< HEAD
-=======
-[](https://github.com/leaguecn/leenotes/blob/master/img/cvpr2018-zhihu.jpg)
->>>>>>> 70313c88704f0ffccf325ce508bb057cad82ff49
 
+## [CVPR 2018 论文解读集锦（9月27日更新）9](https://zhuanlan.zhihu.com/p/35131736)
 
-
-## [CVPR 2018 论文解读集锦（9月27日更新）9]（https://zhuanlan.zhihu.com/p/35131736)
 [](https://github.com/leaguecn/leenotes/raw/master/img/cvpr2018-zhihu.jpg)
 
 ## 目录|TOC
