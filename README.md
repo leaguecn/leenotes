@@ -6,7 +6,7 @@ So it is just the recorder of my study
 
 ## Note Detail
 
-1. [CVPR2018-zhihu](https://github.com/leaguecn/leenotes/blob/master/CVPR2018-zhihu.md)
+1. [CVPR2018-zhihu](https://github.com/leaguecn/leenotes/blob/master/CVPR2018-zhihu.md)    
 *on 2019-02-14*
 1. [New Yorker News Selected 201901](https://github.com/leaguecn/leenotes/blob/master/NewYorkerNewsSelected-201901.md)    
 *on 2019-01-25*    
