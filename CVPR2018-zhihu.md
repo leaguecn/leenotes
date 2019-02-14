@@ -1,6 +1,6 @@
 
 
-## [CVPR 2018 论文解读集锦（9月27日更新）9](https://zhuanlan.zhihu.com/p/35131736)
+## [CVPR 2018 论文解读集锦（9月27日更新）](https://zhuanlan.zhihu.com/p/35131736)
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/cvpr2018-zhihu.jpg)
 
