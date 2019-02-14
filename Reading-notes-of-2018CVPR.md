@@ -2,11 +2,21 @@
 
 ## Reading notes of 2018CVPR
 
+<!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
+1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning](#2d3d-pose-estimation-and-action-recognition-using-multitask-deep-learning)
+    1. [3D Human Pose Estimation in the Wild by Adversarial Learning](#3d-human-pose-estimation-in-the-wild-by-adversarial-learning)
+    1. [3D Human Sensing, Action and Emotion Recognition in Robot Assisted Therapy of Children with Autism](#3d-human-sensing-action-and-emotion-recognition-in-robot-assisted-therapy-of-children-with-autism)
+    1. [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](#voxelnet-end-to-end-learning-for-point-cloud-based-3d-object-detection)
+
+<!-- /MarkdownTOC -->
 
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+-----
 
 #### 2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning
 
@@ -17,7 +27,10 @@ Action recognition and human pose estimation are closely related but both proble
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Pose-Estimation-and-Action-Recognition-using-Multitask-Deep-Learning.png)
 
-### 3D Human Pose Estimation in the Wild by Adversarial Learning
+
+---
+
+#### 3D Human Pose Estimation in the Wild by Adversarial Learning
 
 *by Wei Yang, Wanli Ouyang, Xiaolong Wang, Jimmy Ren, Hongsheng Li, Xiaogang Wang*
 
@@ -26,7 +39,10 @@ Recently, remarkable advances have been achieved in 3D human pose estimation fro
 近年来，由于强大的深度卷积神经网络（DCNNs）,单目图像的3D人体姿态估计取得了令人瞩目的成就。尽管他们在一些实验环境下采集的大尺度数据集中获得了成功，但是在实际环境中获得3D姿态参数仍然存在难点。因此，在实际环境中的人体姿态估计仍是一个挑战。在本文中，我们提出了一种对抗学习框架，能够在完全的标注数据集以及实际环境中简单标注2D姿态的图像学习情况下提取3D人体姿态结构。而不是定义硬码规则来约束姿态估计结果，我们设计了一种新颖的多源识别器来分辨从地表真实预测的3D姿态，这种识别器能够协助加强姿态估计算子生成人体有效的姿态，即使是在实际环境中的图像。我们同时观测到精密地设计分辨器的信息源可以真实提升其性能。为此，我们设计了一个计算身体节点关于位置和距离的匹配对的几何描述子，作为分辨器的新信息源。附有新几何描述子的对抗学习框架性能已经通过广泛利用公共测试数据进行拓展实验的结果阐明。相比于先前的世界前沿水平方法，我们的方法有效地提升了其中的性能。
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Human-Pose-Estimation-in-the-Wild-by-Adversarial-Learning.png)
-### 3D Human Sensing, Action and Emotion Recognition in Robot Assisted Therapy of Children with Autism
+
+
+---
+#### 3D Human Sensing, Action and Emotion Recognition in Robot Assisted Therapy of Children with Autism
 
 *by Elisabeta Marinoiu, Mihai Zanfir, Vlad Olaru, Cristian Sminchisescu*
 
@@ -37,9 +53,9 @@ We introduce new, fine-grained action and emotion recognition tasks defined on n
 我们介绍了一种新、细粒的动作和情绪识别任务，这种任务广发存在于未上演的视频，视频记录了自闭症儿童在机器协助治疗期间的情景。这种任务存在几种挑战：1）大数据集中有长时段视频，大量的有效动作，儿童部分可视，有不同年龄段和可能存在不可预测行为，同时也是在非标准的相机视角。我们研究了当前世界前沿水平3D人体姿态重建方法在这种新式环境下的性能如何，并基于此方法进行改善，使之适应并能处理这些挑战。同时，我们分析了多种从3D人体姿态数据中识别动作和情绪方法，建立了几种基线，并讨论了结果和他们在儿童-机器人交互环境相的含意。
 
 
+-----
 
-
-### VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection
+#### VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection
 
 *by Yin Zhou & Oncel Tuzel*
 
