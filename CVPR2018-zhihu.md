@@ -1,5 +1,5 @@
 
-[](https://github.com/leaguecn/leenotes/raw/master/img/cvpr2018-zhihu.jpg)
+[](https://github.com/leaguecn/leenotes/blob/master/img/cvpr2018-zhihu.jpg)
 
 
 ##[CVPR 2018 论文解读集锦（9月27日更新）9]（https://zhuanlan.zhihu.com/p/35131736)
