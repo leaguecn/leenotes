@@ -2,7 +2,7 @@
 
 ## [CVPR 2018 论文解读集锦（9月27日更新）9](https://zhuanlan.zhihu.com/p/35131736)
 
-[***](https://github.com/leaguecn/leenotes/raw/master/img/cvpr2018-zhihu.jpg)
+![](https://github.com/leaguecn/leenotes/raw/master/img/cvpr2018-zhihu.jpg)
 
 ## 目录|TOC
 
@@ -60,6 +60,9 @@
     1. [Semi-parametric Image Synthesis](#semi-parametric-image-synthesis)
     1. [Synthesizing Images of Humans in Unseen Poses](#synthesizing-images-of-humans-in-unseen-poses)
 1. [More](#more)
+    1. [CVPR2017的论文解读文章](#cvpr2017%E7%9A%84%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%E6%96%87%E7%AB%A0)
+    1. [ICCV 2017 论文解读集锦](#iccv-2017-%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%E9%9B%86%E9%94%A6)
+    1. [CVPR 2018论文解读](#cvpr-2018%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB)
 
 <!-- /MarkdownTOC -->
 
@@ -421,6 +424,6 @@ CVPR 2018 Oral，Pose 合成。
 ----
 
 ## More
-[CVPR2017的论文解读文章](http://cvmart.net/community/article/detail/69)     
-[ICCV 2017 论文解读集锦](http://cvmart.net/community/article/detail/153)     
-[CVPR 2018论文解读](http://bbs.cvmart.net/articles/56/cvpr-2018-lun-wen-jie-du-ji-jin-12-yue-19-ri-geng-xin)    
+### [CVPR2017的论文解读文章](http://cvmart.net/community/article/detail/69)     
+### [ICCV 2017 论文解读集锦](http://cvmart.net/community/article/detail/153)     
+### [CVPR 2018论文解读](http://bbs.cvmart.net/articles/56/cvpr-2018-lun-wen-jie-du-ji-jin-12-yue-19-ri-geng-xin)    
