@@ -9,6 +9,10 @@
     1. [3D Human Pose Estimation in the Wild by Adversarial Learning](#3d-human-pose-estimation-in-the-wild-by-adversarial-learning)
     1. [3D Human Sensing, Action and Emotion Recognition in Robot Assisted Therapy of Children with Autism](#3d-human-sensing-action-and-emotion-recognition-in-robot-assisted-therapy-of-children-with-autism)
     1. [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](#voxelnet-end-to-end-learning-for-point-cloud-based-3d-object-detection)
+1. [3D Pose Estimation and 3D Model Retrieval for Objects in the Wild](#3d-pose-estimation-and-3d-model-retrieval-for-objects-in-the-wild)
+1. [3D Object Detection with Latent Support Surfaces](#3d-object-detection-with-latent-support-surfaces)
+1. [3D Registration of Curves and Surfaces using Local Differential Information](#3d-registration-of-curves-and-surfaces-using-local-differential-information)
+1. [3D Semantic Segmentation with Submanifold Sparse Convolutional Networks](#3d-semantic-segmentation-with-submanifold-sparse-convolutional-networks)
 
 <!-- /MarkdownTOC -->
 
@@ -66,3 +70,71 @@ Accurate detection of objects in 3D point clouds is a central problem in many ap
 在三维点云中准确的目标检测是许多应用的主要问题，如自动导航，家用机器人和增强/虚拟现实。为了使用区域提案网络(RPN)连接高度稀疏的LiDAR点云，许多现有的研究都集中于人工特征再现，如：鹰眼投影。在本文中，我们摒弃人工的3D点云特征工程需求，提出了体素网络(VoxelNet)，一种普通的能够统一特征提取和边界框预测到单阶段的3D检测网络，端对端可训练深度网络。特别之处是体素网络将点云分摊到均匀空间的3D体素并通过新引入的体素特征编码层(VFE)将一组带有体素的点转变为单个统一特征代表。使用这种方法，点云被编码为可描述的体积代表，体积代表被连接到一个区域提案网络(RPN)来生成检测子。在KITTI汽车检测测试数据实验中显示体素网络（VoxelNet）性能超过当前世界前沿的基于LiDAR 3D检测方法一大截。此外，我们的网络使用不同几何学习了一种有效的分辨目标代表，在3D行人、自行车检测中取得了振奋人心的结果，仅仅基于LiDAR数据。
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/VoxelNet-End-to-End-Learning-for-Point-Cloud-Based-3D-Object-Detection.png)
+
+
+
+
+
+-------------------
+2019-02-18
+
+
+### 3D Pose Estimation and 3D Model Retrieval for Objects in the Wild
+ 
+*by Alexander Grabner, Peter M. Roth, Vincent Lepetit*
+
+**Abstract**
+
+We propose a scalable, efficient and accurate approach  to retrieve 3D models for objects in the wild. Our contribution is twofold. We first present a 3D pose estimation approach for object categories which significantly outperforms the state-of-the-art on Pascal3D+. Second, we use the estimated pose as a prior to retrieve 3D models which accurately represent the geometry of objects in RGB images. For this purpose, we render depth images from 3D models under our predicted pose and match learned image descriptors of RGB images against those of rendered depth images using a CNN-based multi-view metric learning approach. In this way, we are the first to report quantitative results for 3D model retrieval on Pascal3D+, where our method chooses the same models as human annotators for 50% of the validation images on average. In addition, we show that our method, which was trained purely on Pascal3D+, retrieves rich and accurate 3D models from ShapeNet given RGB images of objects in the wild.
+
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Pose-Estimation-and-3D-Model-Retrieval-for-Objects-in-the-Wild.png)
+
+
+----
+
+### 3D Object Detection with Latent Support Surfaces
+
+*by Zhile Ren & Erik B. Sudderth*
+
+**Abstract**
+We develop a 3D object detection algorithm that uses latent support surfaces to capture contextual relationships in indoor scenes. Existing 3D representations for RGB-D images capture the local shape and appearance of object categories, but have limited power to represent objects with different visual styles. The detection of small objects is also challenging because the search space is very large in 3D scenes. However, we observe that much of the shape variation within 3D object categories can be explained by the location of a latent support surface, and smaller objects are often supported by larger objects. Therefore, we explicitly use latent support surfaces to better represent the 3D appearance of large objects, and provide contextual cues to improve the detection of small objects. We evaluate our model with 19 object categories from the SUN RGB-D database, and demonstrate state-of-the-art performance.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Object-Detection-with-Latent-Support-Surfaces.png)
+
+
+----
+
+### 3D Registration of Curves and Surfaces using Local Differential Information
+
+
+*by Carolina Raposo and Joao P. Barreto*
+
+
+**Abstract**
+
+This article presents for the first time a global method for registering 3D curves with 3D surfaces without requiring an initialization. The algorithm works with 2-tuples point+vector that consist in pairs of points augmented with the information of their tangents or normals. A closed-form solution for determining the alignment transformation from a pair of matching 2-tuples is proposed. In addition, the set of necessary conditions for two 2-tuples to match is derived. This allows fast search of correspondences that are used in an hypothesise-and-test framework for accomplishing global registration. Comparative experiments demonstrate that the proposed algorithm is the first effective solution for curve vs surface registration, with the method achieving accurate alignment in situations of small overlap and large percentage of outliers in a fraction of a second. The proposed framework is extended to the cases of curve vs curve and surface vs surface registration, with the former being particularly relevant since it is also a largely unsolved problem.
+
+
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Registration-of-Curves-and-Surfaces-using-Local-Differential-Information.png)
+
+
+--------------
+
+
+### 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks
+
+*by Benjamin Graham, Martin Engelcke and Laurens van der Maaten*
+
+**Abstract**
+
+Convolutional networks are the de-facto standard for analyzing spatio-temporal data such as images, videos, and 3D shapes. Whilst some of this data is naturally dense (e.g., photos), many other data sources are inherently sparse. Examples include 3D point clouds that were obtained using a LiDAR scanner or RGB-D camera. Standard “dense” implementations of convolutional networks are very inefficient when applied on such sparse data. We introduce new sparse convolutional operations that are designed to process spatially-sparse data more efficiently, and use them to develop spatially-sparse convolutional networks. We demonstrate the strong performance of the resulting models, called submanifold sparse convolutional networks (SSCNs), on two tasks involving semantic segmentation of 3D point clouds. In particular, our models outperform all prior state-of-the-art on the test set of a recent semantic segmentation competition.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Semantic-Segmentation-with-Submanifold-Sparse-Convolutional-Networks.png)
+
+
