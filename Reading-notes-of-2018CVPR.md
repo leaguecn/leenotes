@@ -5,14 +5,18 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [Alive Caricature from 2D to 3D](#alive-caricature-from-2d-to-3d)
+    1. [A Papier-Mache Approach to Learning 3D Surface Generation](#a-papier-mache-approach-to-learning-3d-surface-generation)
+    1. [3D Semantic Trajectory Reconstruction from 3D Pixel Continuum](#3d-semantic-trajectory-reconstruction-from-3d-pixel-continuum)
+    1. [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](#3d-rcnn-instance-level-3d-object-reconstruction-via-render-and-compare)
+    1. [3D Pose Estimation and 3D Model Retrieval for Objects in the Wild](#3d-pose-estimation-and-3d-model-retrieval-for-objects-in-the-wild)
+    1. [3D Object Detection with Latent Support Surfaces](#3d-object-detection-with-latent-support-surfaces)
+    1. [3D Registration of Curves and Surfaces using Local Differential Information](#3d-registration-of-curves-and-surfaces-using-local-differential-information)
+    1. [3D Semantic Segmentation with Submanifold Sparse Convolutional Networks](#3d-semantic-segmentation-with-submanifold-sparse-convolutional-networks)
     1. [2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning](#2d3d-pose-estimation-and-action-recognition-using-multitask-deep-learning)
     1. [3D Human Pose Estimation in the Wild by Adversarial Learning](#3d-human-pose-estimation-in-the-wild-by-adversarial-learning)
     1. [3D Human Sensing, Action and Emotion Recognition in Robot Assisted Therapy of Children with Autism](#3d-human-sensing-action-and-emotion-recognition-in-robot-assisted-therapy-of-children-with-autism)
     1. [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](#voxelnet-end-to-end-learning-for-point-cloud-based-3d-object-detection)
-1. [3D Pose Estimation and 3D Model Retrieval for Objects in the Wild](#3d-pose-estimation-and-3d-model-retrieval-for-objects-in-the-wild)
-1. [3D Object Detection with Latent Support Surfaces](#3d-object-detection-with-latent-support-surfaces)
-1. [3D Registration of Curves and Surfaces using Local Differential Information](#3d-registration-of-curves-and-surfaces-using-local-differential-information)
-1. [3D Semantic Segmentation with Submanifold Sparse Convolutional Networks](#3d-semantic-segmentation-with-submanifold-sparse-convolutional-networks)
 
 <!-- /MarkdownTOC -->
 
@@ -20,7 +24,127 @@
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
 
------
+--------------------
+
+**2019-02-19**
+
+
+
+#### Alive Caricature from 2D to 3D
+
+*by Qianyi Wu1, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
+
+**Abstract**
+Caricature is an art form that expresses subjects in abstract, simple and exaggerated views. While many caricatures are 2D images, this paper presents an algorithm for creating expressive 3D caricatures from 2D caricature images with minimum user interaction. The key idea of our approach is to introduce an intrinsic deformation representation that has the capability of extrapolation, enabling us to create a deformation space from standard face datasets, which maintains face constraints and meanwhile is sufficiently large for producing exaggerated face models. Built upon the proposed deformation representation, an optimization model is formulated to find the 3D caricature that captures the style of the 2D caricature image automatically. The experiments show that our approach has better capability in expressing caricatures than those fitting approaches directly using classical parametric face models such as 3DMM and FaceWareHouse. Moreover, our approach is based on standard face datasets and avoids constructing complicated 3D caricature training sets, which provides great flexibility in real applications.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Alive-Caricature-from-2D-to-3D.png)
+
+------------
+#### A Papier-Mache Approach to Learning 3D Surface Generation
+
+*by Thibault Groueix, Matthew Fisher, Vladimir G. Kim, Bryan C. Russell, Mathieu Aubry*
+
+**Abstract**
+We introduce a method for learning to generate the surface of 3D shapes. Our approach represents a 3D shape as a collection of parametric surface elements and, in contrast to methods generating voxel grids or point clouds, naturally infers a surface representation of the shape. Beyond its novelty, our new shape generation framework, AtlasNet, comes with significant advantages, such as improved precision and generalization capabilities, and the possibility to generate a shape of arbitrary resolution without memory issues. We demonstrate these benefits and compare to strong baselines on the ShapeNet benchmark for two applications: (i) autoencoding shapes, and (ii) single-view reconstruction from a still image. We also provide results showing its potential for other applications, such as morphing, parametrization, super-resolution, matching, and co-segmentation.
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/A-Papier-Mache-Approach-to-Learning-3D-Surface-Generation.png)
+
+-------
+
+#### 3D Semantic Trajectory Reconstruction from 3D Pixel Continuum
+
+*by Jae Shin Yoon, Ziwei Li & Hyun Soo Park*
+
+
+**Abstract**
+This paper presents a method to assign a semantic label to a 3D reconstructed trajectory from multiview image streams. The key challenge of the semantic labeling lies in the self-occlusion and photometric inconsistency caused by object and social interactions, resulting in highly fragmented trajectory reconstruction with noisy semantic labels. We address this challenge by introducing a new representation called 3D semantic map—a probability distribution over labels per 3D trajectory constructed by a set of semantic recognition across multiple views. Our conjecture is that among many views, there exist a set of views that are more informative than the others. We build the 3D semantic map based on a likelihood of visibility and 2D recognition confidence and identify the view that best represents the semantics of the trajectory. We use this 3D semantic map and trajectory affinity computed by local rigid transformation to precisely infer labels as a whole. This global inference quantitatively outperforms the baseline approaches in terms of predictive validity, representation robustness, and affinity effectiveness. We demonstrate that our algorithm can robustly compute the semantic labels of a large scale trajectory set (e.g., millions of trajectories) involving real-world human interactions with object, scenes, and people.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Semantic-Trajectory-Reconstruction-from-3D-Pixel-Continuum.png)
+
+
+---------
+
+#### 3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare
+
+*by Abhijit Kundu, Yin Li, James M. Rehg*
+
+**Abstract**
+
+We present a fast inverse-graphics framework for instance-level 3D scene understanding. We train a deep convolutional network that learns to map image regions to the full 3D shape and pose of all object instances in the image. Our method produces a compact 3D representation of the scene, which can be readily used for applications like autonomous driving. Many traditional 2D vision outputs, like instance segmentations and depth-maps, can be obtained by simply rendering our output 3D scene model. We exploit class-specific shape priors by learning a low dimensional shape-space from collections of CAD models. We present novel representations of shape and pose, that strive towards better 3D equivariance and generalization. In order to exploit rich supervisory signals in the form of 2D annotations like segmentation, we propose a differentiable Render-and-Compare loss that allows 3D shape and pose to be learned with 2D supervision. We evaluate our method on the challenging real-world datasets of Pascal3D+ and KITTI, where we achieve state-of-the-art results.
+
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-RCNN-Instance-level-3D-Object-Reconstruction-via-Render-and-Compare)
+
+
+-------------------
+**2019-02-18**
+
+
+#### 3D Pose Estimation and 3D Model Retrieval for Objects in the Wild
+ 
+*by Alexander Grabner, Peter M. Roth, Vincent Lepetit*
+
+**Abstract**
+
+We propose a scalable, efficient and accurate approach  to retrieve 3D models for objects in the wild. Our contribution is twofold. We first present a 3D pose estimation approach for object categories which significantly outperforms the state-of-the-art on Pascal3D+. Second, we use the estimated pose as a prior to retrieve 3D models which accurately represent the geometry of objects in RGB images. For this purpose, we render depth images from 3D models under our predicted pose and match learned image descriptors of RGB images against those of rendered depth images using a CNN-based multi-view metric learning approach. In this way, we are the first to report quantitative results for 3D model retrieval on Pascal3D+, where our method chooses the same models as human annotators for 50% of the validation images on average. In addition, we show that our method, which was trained purely on Pascal3D+, retrieves rich and accurate 3D models from ShapeNet given RGB images of objects in the wild.
+ 
+我们提出了
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Pose-Estimation-and-3D-Model-Retrieval-for-Objects-in-the-Wild.png)
+
+
+-------------------
+
+#### 3D Object Detection with Latent Support Surfaces
+
+*by Zhile Ren & Erik B. Sudderth*
+
+**Abstract**
+We develop a 3D object detection algorithm that uses latent support surfaces to capture contextual relationships in indoor scenes. Existing 3D representations for RGB-D images capture the local shape and appearance of object categories, but have limited power to represent objects with different visual styles. The detection of small objects is also challenging because the search space is very large in 3D scenes. However, we observe that much of the shape variation within 3D object categories can be explained by the location of a latent support surface, and smaller objects are often supported by larger objects. Therefore, we explicitly use latent support surfaces to better represent the 3D appearance of large objects, and provide contextual cues to improve the detection of small objects. We evaluate our model with 19 object categories from the SUN RGB-D database, and demonstrate state-of-the-art performance.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Object-Detection-with-Latent-Support-Surfaces.png)
+
+
+----
+
+#### 3D Registration of Curves and Surfaces using Local Differential Information
+
+
+*by Carolina Raposo and Joao P. Barreto*
+
+
+**Abstract**
+
+This article presents for the first time a global method for registering 3D curves with 3D surfaces without requiring an initialization. The algorithm works with 2-tuples point+vector that consist in pairs of points augmented with the information of their tangents or normals. A closed-form solution for determining the alignment transformation from a pair of matching 2-tuples is proposed. In addition, the set of necessary conditions for two 2-tuples to match is derived. This allows fast search of correspondences that are used in an hypothesise-and-test framework for accomplishing global registration. Comparative experiments demonstrate that the proposed algorithm is the first effective solution for curve vs surface registration, with the method achieving accurate alignment in situations of small overlap and large percentage of outliers in a fraction of a second. The proposed framework is extended to the cases of curve vs curve and surface vs surface registration, with the former being particularly relevant since it is also a largely unsolved problem.
+
+
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Registration-of-Curves-and-Surfaces-using-Local-Differential-Information.png)
+
+
+--------------
+
+
+#### 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks
+
+*by Benjamin Graham, Martin Engelcke and Laurens van der Maaten*
+
+**Abstract**
+
+Convolutional networks are the de-facto standard for analyzing spatio-temporal data such as images, videos, and 3D shapes. Whilst some of this data is naturally dense (e.g., photos), many other data sources are inherently sparse. Examples include 3D point clouds that were obtained using a LiDAR scanner or RGB-D camera. Standard “dense” implementations of convolutional networks are very inefficient when applied on such sparse data. We introduce new sparse convolutional operations that are designed to process spatially-sparse data more efficiently, and use them to develop spatially-sparse convolutional networks. We demonstrate the strong performance of the resulting models, called submanifold sparse convolutional networks (SSCNs), on two tasks involving semantic segmentation of 3D point clouds. In particular, our models outperform all prior state-of-the-art on the test set of a recent semantic segmentation competition.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Semantic-Segmentation-with-Submanifold-Sparse-Convolutional-Networks.png)
+
+
+
+---------------------
+**2019-02-17**
 
 #### 2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning
 
@@ -75,66 +199,6 @@ Accurate detection of objects in 3D point clouds is a central problem in many ap
 
 
 
--------------------
-2019-02-18
 
-
-### 3D Pose Estimation and 3D Model Retrieval for Objects in the Wild
- 
-*by Alexander Grabner, Peter M. Roth, Vincent Lepetit*
-
-**Abstract**
-
-We propose a scalable, efficient and accurate approach  to retrieve 3D models for objects in the wild. Our contribution is twofold. We first present a 3D pose estimation approach for object categories which significantly outperforms the state-of-the-art on Pascal3D+. Second, we use the estimated pose as a prior to retrieve 3D models which accurately represent the geometry of objects in RGB images. For this purpose, we render depth images from 3D models under our predicted pose and match learned image descriptors of RGB images against those of rendered depth images using a CNN-based multi-view metric learning approach. In this way, we are the first to report quantitative results for 3D model retrieval on Pascal3D+, where our method chooses the same models as human annotators for 50% of the validation images on average. In addition, we show that our method, which was trained purely on Pascal3D+, retrieves rich and accurate 3D models from ShapeNet given RGB images of objects in the wild.
-
-
-
-![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Pose-Estimation-and-3D-Model-Retrieval-for-Objects-in-the-Wild.png)
-
-
-----
-
-### 3D Object Detection with Latent Support Surfaces
-
-*by Zhile Ren & Erik B. Sudderth*
-
-**Abstract**
-We develop a 3D object detection algorithm that uses latent support surfaces to capture contextual relationships in indoor scenes. Existing 3D representations for RGB-D images capture the local shape and appearance of object categories, but have limited power to represent objects with different visual styles. The detection of small objects is also challenging because the search space is very large in 3D scenes. However, we observe that much of the shape variation within 3D object categories can be explained by the location of a latent support surface, and smaller objects are often supported by larger objects. Therefore, we explicitly use latent support surfaces to better represent the 3D appearance of large objects, and provide contextual cues to improve the detection of small objects. We evaluate our model with 19 object categories from the SUN RGB-D database, and demonstrate state-of-the-art performance.
-
-
-![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Object-Detection-with-Latent-Support-Surfaces.png)
-
-
-----
-
-### 3D Registration of Curves and Surfaces using Local Differential Information
-
-
-*by Carolina Raposo and Joao P. Barreto*
-
-
-**Abstract**
-
-This article presents for the first time a global method for registering 3D curves with 3D surfaces without requiring an initialization. The algorithm works with 2-tuples point+vector that consist in pairs of points augmented with the information of their tangents or normals. A closed-form solution for determining the alignment transformation from a pair of matching 2-tuples is proposed. In addition, the set of necessary conditions for two 2-tuples to match is derived. This allows fast search of correspondences that are used in an hypothesise-and-test framework for accomplishing global registration. Comparative experiments demonstrate that the proposed algorithm is the first effective solution for curve vs surface registration, with the method achieving accurate alignment in situations of small overlap and large percentage of outliers in a fraction of a second. The proposed framework is extended to the cases of curve vs curve and surface vs surface registration, with the former being particularly relevant since it is also a largely unsolved problem.
-
-
-
-
-![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Registration-of-Curves-and-Surfaces-using-Local-Differential-Information.png)
-
-
---------------
-
-
-### 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks
-
-*by Benjamin Graham, Martin Engelcke and Laurens van der Maaten*
-
-**Abstract**
-
-Convolutional networks are the de-facto standard for analyzing spatio-temporal data such as images, videos, and 3D shapes. Whilst some of this data is naturally dense (e.g., photos), many other data sources are inherently sparse. Examples include 3D point clouds that were obtained using a LiDAR scanner or RGB-D camera. Standard “dense” implementations of convolutional networks are very inefficient when applied on such sparse data. We introduce new sparse convolutional operations that are designed to process spatially-sparse data more efficiently, and use them to develop spatially-sparse convolutional networks. We demonstrate the strong performance of the resulting models, called submanifold sparse convolutional networks (SSCNs), on two tasks involving semantic segmentation of 3D point clouds. In particular, our models outperform all prior state-of-the-art on the test set of a recent semantic segmentation competition.
-
-
-![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Semantic-Segmentation-with-Submanifold-Sparse-Convolutional-Networks.png)
 
 
