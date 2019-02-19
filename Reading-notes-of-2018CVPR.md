@@ -76,7 +76,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 
 
-![](https://github.com/leaguecn/leenotes/raw/master/img/3D-RCNN-Instance-level-3D-Object-Reconstruction-via-Render-and-Compare)
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-RCNN-Instance-level-3D-Object-Reconstruction-via-Render-and-Compare.png)
 
 
 -------------------
@@ -180,6 +180,8 @@ We introduce new, fine-grained action and emotion recognition tasks defined on n
 
 我们介绍了一种新、细粒的动作和情绪识别任务，这种任务广发存在于未上演的视频，视频记录了自闭症儿童在机器协助治疗期间的情景。这种任务存在几种挑战：1）大数据集中有长时段视频，大量的有效动作，儿童部分可视，有不同年龄段和可能存在不可预测行为，同时也是在非标准的相机视角。我们研究了当前世界前沿水平3D人体姿态重建方法在这种新式环境下的性能如何，并基于此方法进行改善，使之适应并能处理这些挑战。同时，我们分析了多种从3D人体姿态数据中识别动作和情绪方法，建立了几种基线，并讨论了结果和他们在儿童-机器人交互环境相的含意。
 
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Human-Sensing-Action-and-Emotion-Recognition-in-Robot-Assisted-Therapy-of-Children-with-Autism.png)
 
 -----
 
