@@ -1,12 +1,15 @@
 
+
+**TOC**
+
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [The real reason America is scared of Huawei: internet-connected everything](#the-real-reason-america-is-scared-of-huawei-internet-connected-everything)
-    1. [1. WHAT IS 5G?](#1-what-is-5g)
-    1. [2. WHY IS IT BETTER?](#2-why-is-it-better)
-    1. [3. WHAT ARE THE SECURITY RISKS?](#3-what-are-the-security-risks)
-    1. [4. CAN 5G BE MADE SECURE?](#4-can-5g-be-made-secure)
-    1. [5. WHY IS HUAWEI’S 5G CAUSING SO MUCH CONCERN?](#5-why-is-huawei%E2%80%99s-5g-causing-so-much-concern)
+    1. [WHAT IS 5G?](#what-is-5g)
+    1. [WHY IS IT BETTER?](#why-is-it-better)
+    1. [WHAT ARE THE SECURITY RISKS?](#what-are-the-security-risks)
+    1. [CAN 5G BE MADE SECURE?](#can-5g-be-made-secure)
+    1. [WHY IS HUAWEI’S 5G CAUSING SO MUCH CONCERN?](#why-is-huawei%E2%80%99s-5g-causing-so-much-concern)
 
 <!-- /MarkdownTOC -->
 
@@ -15,7 +18,7 @@
 
 
 
-## The real reason America is scared of Huawei: internet-connected everything
+## [The real reason America is scared of Huawei: internet-connected everything](https://www.technologyreview.com/s/612874/the-real-reason-america-is-scared-of-huawei-internet-connected-everything/)
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/5gfinal1.jpg)
 
@@ -34,13 +37,13 @@ Behind the headlines, though, the spat is also about the coming wave of networki
 
 Here are five things you need to know about the technology and its role in the tensions.
 
-### 1. WHAT IS 5G?
+### WHAT IS 5G?
 
 Rather than a protocol or device, 5G refers to an array of networking technologies meant to work in concert to connect everything from self-driving cars to home appliances over the air. It’s expected to provide bandwidth of up to 20 gigabits per second—enough to download high-definition movies instantly and use virtual and augmented reality. On your smartphone.
 
 The first 5G smartphones and infrastructure arrive this year, but a full transition will take many more years.
 
-### 2. WHY IS IT BETTER?
+### WHY IS IT BETTER?
 
 5G networks operate on two different frequency ranges. In one mode, they will exploit the same frequencies as existing 4G and Wi-Fi networks, while using a more efficient coding scheme and larger channel sizes to achieve a 25% to 50% speed boost. In a second mode, 5G networks will use much higher, millimeter-wave frequencies that can transmit data at higher speeds, albeit over shorter ranges.
 
@@ -50,7 +53,7 @@ To increase bandwidth, 5G cells also make use of a technology known as massive M
 
 Finally, a technology called full duplex will increase data capacity further still by allowing transmitters and devices to send and receive data on the same frequency. This is done using specialized circuits capable of ensuring that incoming and outgoing signals do not interfere with one another.
 
-### 3. WHAT ARE THE SECURITY RISKS?
+### WHAT ARE THE SECURITY RISKS?
 
 One of 5G’s biggest security issues is simply how widely it will be used.
 
@@ -64,7 +67,7 @@ With 5G, a layer of control software will help ensure seamless connectivity, cre
 
 This software layer will, however, offer new ways for a malicious network operator to snoop on and manipulate data. It may also open up new vectors for attack, while [hardware bugs](https://meltdownattack.com/) could make it possible for users to hop between virtual networks, eavesdropping or stealing data as they do.
 
-### 4. CAN 5G BE MADE SECURE?
+### CAN 5G BE MADE SECURE?
 
 These security worries paint a bleak picture—but there are technical solutions to all of them.
 
@@ -74,7 +77,7 @@ Two research papers offer a good overview of the risks and potential solutions: 
 
 “If you do it correctly, you will actually have a more robust network,” says [Muriel Médard](http://www.rle.mit.edu/ncrc/people/), a professor who leads the [Network Coding and Reliable Communications Group](http://www.rle.mit.edu/ncrc/) at MIT.
 
-### 5. WHY IS HUAWEI’S 5G CAUSING SO MUCH CONCERN?
+### WHY IS HUAWEI’S 5G CAUSING SO MUCH CONCERN?
 
 As the world’s biggest supplier of networking equipment and second largest smartphone maker, Huawei is in a prime position to snatch the lion’s share of a 5G market that, [by some estimates](https://www.marketwatch.com/press-release/5g-services-market-worth-12327-billion-by-2025-2018-09-12), could be worth $123 billion in five years’ time.
 
