@@ -6,6 +6,8 @@ So it is just the recorder of my study
 
 ## Note Detail
 
+1. [MIT-TechnologyReview-IntelligentMachines](https://github.com/leaguecn/leenotes/blob/master/MIT-TechReview-IntelligentMachines.md)    
+*on 2019-02-19*    
 1. [Android-Dev-Notes](https://github.com/leaguecn/leenotes/blob/master/Android-Dev-Notes.md)    
 *on 2019-02-16*    
 1. [Reading-notes-of-2018CVPR](https://github.com/leaguecn/leenotes/blob/master/Reading-notes-of-2018CVPR.md)    
