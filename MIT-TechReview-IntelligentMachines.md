@@ -4,15 +4,14 @@
 
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
-1. [](#)
-1. [Explainer: What is a quantum computer?|解释者：量子计算机是什么东东？](#explainer-what-is-a-quantum-computer%7C%E8%A7%A3%E9%87%8A%E8%80%85%EF%BC%9A%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%9C%E4%B8%9C%EF%BC%9F)
+1. [Explainer: What is a quantum computer?](#explainer-what-is-a-quantum-computer)
     1. [What is a qubit?](#what-is-a-qubit)
     1. [What is superposition?](#what-is-superposition)
     1. [What is entanglement?](#what-is-entanglement)
     1. [What is decoherence?](#what-is-decoherence)
     1. [What is quantum supremacy?](#what-is-quantum-supremacy)
     1. [Where is a quantum computer likely to be most useful first?](#where-is-a-quantum-computer-likely-to-be-most-useful-first)
-1. [The real reason America is scared of Huawei: internet-connected everything|美国害怕华为公司真实原因：万物互联](#the-real-reason-america-is-scared-of-huawei-internet-connected-everything%7C%E7%BE%8E%E5%9B%BD%E5%AE%B3%E6%80%95%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%8F%B8%E7%9C%9F%E5%AE%9E%E5%8E%9F%E5%9B%A0%EF%BC%9A%E4%B8%87%E7%89%A9%E4%BA%92%E8%81%94)
+1. [The real reason America is scared of Huawei: internet-connected everything](#the-real-reason-america-is-scared-of-huawei-internet-connected-everything)
     1. [WHAT IS 5G?](#what-is-5g)
     1. [WHY IS IT BETTER?](#why-is-it-better)
     1. [WHAT ARE THE SECURITY RISKS?](#what-are-the-security-risks)
@@ -20,9 +19,12 @@
     1. [WHY IS HUAWEI’S 5G CAUSING SO MUCH CONCERN?](#why-is-huawei%E2%80%99s-5g-causing-so-much-concern)
 
 <!-- /MarkdownTOC -->
--------------
 
-## [Explainer: What is a quantum computer?|解释者：量子计算机是什么东东？](https://www.technologyreview.com/s/612844/what-is-quantum-computing/)
+-----
+
+
+
+## [Explainer: What is a quantum computer?](https://www.technologyreview.com/s/612844/what-is-quantum-computing/)
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/What-is-a-quantum-computer.jpg)
 
@@ -103,7 +105,7 @@ It could take quite a few years for quantum computers to achieve their full pote
 --------------
 2019-02-19
 
-## [The real reason America is scared of Huawei: internet-connected everything|美国害怕华为公司真实原因：万物互联](https://www.technologyreview.com/s/612874/the-real-reason-america-is-scared-of-huawei-internet-connected-everything/)
+## [The real reason America is scared of Huawei: internet-connected everything](https://www.technologyreview.com/s/612874/the-real-reason-america-is-scared-of-huawei-internet-connected-everything/)
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/5gfinal1.jpg)
 
