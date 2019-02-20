@@ -30,23 +30,23 @@
 **2019-02-20**
 
 #### Augmenting Crowd-Sourced 3D Reconstructions using Semantic Detections
-
+**使用语义检测的增强交叉源三维重建**
 *by True Price, Johannes L. Schonberger, Zhen Wei, Marc Pollefeys, Jan-Michael Frahm1*
 
 **Abstract**
 Image-based 3D reconstruction for Internet photo collections has become a robust technology to produce impressive virtual representations of real-world scenes. However, several fundamental challenges remain for Structure-from-Motion (SfM) pipelines, namely: the placement and reconstruction of transient objects only observed in single views, estimating the absolute scale of the scene, and (suprisingly often) recovering ground surfaces in the scene. We propose a method to jointly address these remaining open problems of SfM. In particular, we focus on detecting people in individual images and accurately placing them into an existing 3D model. As part of this placement, our method also estimates the absolute scale of the scene from object semantics, which in this case constitutes the height distribution of the population. Further, we obtain a smooth approximation of the ground surface and recover the gravity vector of the scene directly from the individual person detections. We demonstrate the results of our approach on a number of unordered Internet photo collections, and we quantitatively evaluate the obtained absolute scene scales.
-
+//面向互联网图像集的基于图像三维重建技术已经成为出产真实场景的令人印象深刻的虚拟呈现方面的成熟技术。然后，在运动结构恢复（SFM)中依然存在几个重要大挑战，即：移动(短暂停留)物体的位置和结构仅可以在单一视角中观测，估计场景的真实尺度，和经常要恢复场景地表模型。我们提出了一种新方法，共同强调这些仍然存在SFM中的问题。特别之处，我们着眼于单一图像的人物检测和他们在存在模型中的准确位置。关于位置部分，我们所提方法也可以从物体的语义环境估计场景的真实尺度，构成人群高度的配置信息。此外，我们还可以获得平滑的地表近视面和从单一人物检测中直接地恢复重力向量。我们阐明了所提方法在一系列无序互联网图像集中的实验结果，并且定量估计了已经获得的绝对的场景尺度。
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Augmenting-Crowd-Sourced-3D-Reconstructions-using-Semantic-Detections.png)
 
 
 ----
 #### Automatic 3D Indoor Scene Modeling from Single Panorama
-
+**单一全景图像中自动化室内三维场景建模**
 *by Yang Yang, Shi Jin, Ruiyang Liu, Sing Bing Kang, Jingyi Yu*
 
 **Abstract**
 We describe a system that automatically extracts 3D geometry of an indoor scene from a single 2D panorama. Our system recovers the spatial layout by finding the floor, walls, and ceiling; it also recovers shapes of typical indoor objects such as furniture. Using sampled perspective subviews, we extract geometric cues (lines, vanishing points, orientation map, and surface normals) and semantic cues (saliency and object detection information). These cues are used for ground plane estimation and occlusion reasoning. The global spatial layout is inferred through a constraint graph on line segments and planar superpixels. The recovered layout is then used to guide shape estimation of the remaining objects using their normal information. Experiments on synthetic and real datasets show that our approach is state-of-the-art in both accuracy and efficiency. Our system can handle cluttered scenes with complex geometry that are challenging to existing techniques.
-
+//我们讲述了一个从单张二维全景图像中自动提取室内场景三维几何的系统。我们所提的系统通过寻找地板、墙壁和天花板恢复空间布局，同时可以恢复典型室内物体，如：家具的形状。通过已采样的透视亚视图，我们提取几何索引（如线条，灭点/消失点，方向图和曲面法向量）和语义索引（凸出和目标检测信息）。这些索引被用于地表面估计与闭合推理。全局空间布局通过线割约束图和平面超像素被估计。恢复的布局然后被用于引导遗留物体的形状估计通过他们的法向量信息。在合成和真实数据集中的实验显示了所提方法在精确度和效率均达到先进水平。我们的系统能够处理聚类场景，这类场景包含复杂几何，是当前所存在技术中的挑战。
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Automatic-3D-Indoor-Scene-Modeling-from-Single-Panorama.png)
 
@@ -59,11 +59,12 @@ We describe a system that automatically extracts 3D geometry of an indoor scene 
 
 #### Alive Caricature from 2D to 3D
 
+**二维到三维的生动漫画**
 *by Qianyi Wu1, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
 
 **Abstract**
 Caricature is an art form that expresses subjects in abstract, simple and exaggerated views. While many caricatures are 2D images, this paper presents an algorithm for creating expressive 3D caricatures from 2D caricature images with minimum user interaction. The key idea of our approach is to introduce an intrinsic deformation representation that has the capability of extrapolation, enabling us to create a deformation space from standard face datasets, which maintains face constraints and meanwhile is sufficiently large for producing exaggerated face models. Built upon the proposed deformation representation, an optimization model is formulated to find the 3D caricature that captures the style of the 2D caricature image automatically. The experiments show that our approach has better capability in expressing caricatures than those fitting approaches directly using classical parametric face models such as 3DMM and FaceWareHouse. Moreover, our approach is based on standard face datasets and avoids constructing complicated 3D caricature training sets, which provides great flexibility in real applications.
-
+//漫画是一种艺术的抽象表达方式，简单但视角夸张。然而，许多漫画是二维的图像，本文提出了一种从带有最小用户交互的二维漫画中制作表达丰富的三维漫画算法。所提方法的主要观点是：引入一种内部形变代表物，该代表具有外推能力，激发我们从标准面部数据集中创造一个变形空间。这种变形空间可维持面部约束，同时足够大到可以产夸张的面部模型。建立所提的变形代表物后，一种寻找三维漫画的优化模型被形成，可以自动地捕捉二维漫画图像。实验表明所提方法相对于那些直接利用传统参数化面部模型，如：3DMM和FaceWareHouse的拟合方法，拥有更好漫画表达能力。而且，我们的方法基于标准的面部数据集且避免了构造复杂三维漫画训练集，可以在实际应用中提供很好的灵活性。
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Alive-Caricature-from-2D-to-3D.png)
 
