@@ -70,24 +70,26 @@ Caricature is an art form that expresses subjects in abstract, simple and exagge
 
 ------------
 #### A Papier-Mache Approach to Learning 3D Surface Generation
+**一种用于学习三维表面生成的混凝纸浆方法**    
+*by Thibault Groueix, Matthew Fisher, Vladimir G. Kim, Bryan C. Russell, Mathieu Aubry*     
 
-*by Thibault Groueix, Matthew Fisher, Vladimir G. Kim, Bryan C. Russell, Mathieu Aubry*
-
-**Abstract**
-We introduce a method for learning to generate the surface of 3D shapes. Our approach represents a 3D shape as a collection of parametric surface elements and, in contrast to methods generating voxel grids or point clouds, naturally infers a surface representation of the shape. Beyond its novelty, our new shape generation framework, AtlasNet, comes with significant advantages, such as improved precision and generalization capabilities, and the possibility to generate a shape of arbitrary resolution without memory issues. We demonstrate these benefits and compare to strong baselines on the ShapeNet benchmark for two applications: (i) autoencoding shapes, and (ii) single-view reconstruction from a still image. We also provide results showing its potential for other applications, such as morphing, parametrization, super-resolution, matching, and co-segmentation.
-
+**Abstract**      
+We introduce a method for learning to generate the surface of 3D shapes. Our approach represents a 3D shape as a collection of parametric surface elements and, in contrast to methods generating voxel grids or point clouds, naturally infers a surface representation of the shape. Beyond its novelty, our new shape generation framework, AtlasNet, comes with significant advantages, such as improved precision and generalization capabilities, and the possibility to generate a shape of arbitrary resolution without memory issues. We demonstrate these benefits and compare to strong baselines on the ShapeNet benchmark for two applications: (i) autoencoding shapes, and (ii) single-view reconstruction from a still image. We also provide results showing its potential for other applications, such as morphing, parametrization, super-resolution, matching, and co-segmentation.     
+//我们介绍了一种用学习来生成三维形状表面的方法。所提方法将一个三维形状表示为一个参数化表面元素的集合，和生成体素网格或点云相比，自然地推断形状的表面代表物。在新颖性方面，我们的新形状生成框架，AtlasNet带有重要的先进，如：提高精度和归纳能力与生成任意分辨率形状可能性没有内存问题。我们阐明了这些优点并在ShapeNet测试数据上为两种应用：1）自动编码形状，2）单视静态图像重建，比较了长基线。我们同时提供的结果显示所提方法对于其他应用的潜在可能，如：变换，参数化，超分辨率，匹配和协作分割。        
 ![](https://github.com/leaguecn/leenotes/raw/master/img/A-Papier-Mache-Approach-to-Learning-3D-Surface-Generation.png)
 
 -------
 
 #### 3D Semantic Trajectory Reconstruction from 3D Pixel Continuum
 
-*by Jae Shin Yoon, Ziwei Li & Hyun Soo Park*
+**三维像素连续体的三维语义轨迹重建**    
+*by Jae Shin Yoon, Ziwei Li & Hyun Soo Park*     
 
 
 **Abstract**
-This paper presents a method to assign a semantic label to a 3D reconstructed trajectory from multiview image streams. The key challenge of the semantic labeling lies in the self-occlusion and photometric inconsistency caused by object and social interactions, resulting in highly fragmented trajectory reconstruction with noisy semantic labels. We address this challenge by introducing a new representation called 3D semantic map—a probability distribution over labels per 3D trajectory constructed by a set of semantic recognition across multiple views. Our conjecture is that among many views, there exist a set of views that are more informative than the others. We build the 3D semantic map based on a likelihood of visibility and 2D recognition confidence and identify the view that best represents the semantics of the trajectory. We use this 3D semantic map and trajectory affinity computed by local rigid transformation to precisely infer labels as a whole. This global inference quantitatively outperforms the baseline approaches in terms of predictive validity, representation robustness, and affinity effectiveness. We demonstrate that our algorithm can robustly compute the semantic labels of a large scale trajectory set (e.g., millions of trajectories) involving real-world human interactions with object, scenes, and people.
-
+This paper presents a method to assign a semantic label to a 3D reconstructed trajectory from multiview image streams. The key challenge of the semantic labeling lies in the self-occlusion and photometric inconsistency caused by object and social interactions, resulting in highly fragmented trajectory reconstruction with noisy semantic labels. We address this challenge by introducing a new representation called 3D semantic map—a probability distribution over labels per 3D trajectory constructed by a set of semantic recognition across multiple views. Our conjecture is that among many views, there exist a set of views that are more informative than the others. We build the 3D semantic map based on a likelihood of visibility and 2D recognition confidence and identify the view that best represents the semantics of the trajectory. We use this 3D semantic map and trajectory affinity computed by local rigid transformation to precisely infer labels as a whole. This global inference quantitatively outperforms the baseline approaches in terms of predictive validity, representation robustness, and affinity effectiveness. We demonstrate that our algorithm can robustly compute the semantic labels of a large scale trajectory set (e.g., millions of trajectories) involving real-world human interactions with object, scenes, and people.     
+//文提出了一种新方法，该方法用于向从多视图像流中重建的三维轨迹分配语义的标签。
+语义标签的主要挑战在于由物体和社会交互所引起的自闭塞与光度不一致，致使带有噪声语义标签的轨迹重建高度碎片化。我们通过引入称之为三维语义地图的新代表物来解决这一挑战，这样的语义地图是每个三维轨迹标签的概率分布图，这些三维轨迹由系列的语义多视识别物构成。我们结论是在多视情况下存在某一集合的视图是包含更多的信息，相比其他视图。我们构建了三维的语义地图，该地图基于视觉的似然性与二维识别物的置信和辨别最好的语义轨迹代表视图。我们使用这个三维语义地图和局部刚体信息计算的轨迹类同来精确推断标签作为整体。  
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Semantic-Trajectory-Reconstruction-from-3D-Pixel-Continuum.png)
 
