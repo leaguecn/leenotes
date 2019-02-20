@@ -7,7 +7,7 @@ So it is just the recorder of my study
 ## Note Detail
 
 
-1. [Android awesome apps](https://github.com/leaguecn/leenotes/blob/master/Android-awseome-apps.md)      
+1. [Android awesome apps](https://github.com/leaguecn/leenotes/blob/master/Android-awesome-apps.md)      
 *on 2019-02-20*     
 1. [MIT-TechnologyReview-IntelligentMachines](https://github.com/leaguecn/leenotes/blob/master/MIT-TechReview-IntelligentMachines.md)    
 *on 2019-02-19*    
