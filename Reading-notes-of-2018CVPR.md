@@ -89,8 +89,7 @@ We introduce a method for learning to generate the surface of 3D shapes. Our app
 **Abstract**
 This paper presents a method to assign a semantic label to a 3D reconstructed trajectory from multiview image streams. The key challenge of the semantic labeling lies in the self-occlusion and photometric inconsistency caused by object and social interactions, resulting in highly fragmented trajectory reconstruction with noisy semantic labels. We address this challenge by introducing a new representation called 3D semantic map—a probability distribution over labels per 3D trajectory constructed by a set of semantic recognition across multiple views. Our conjecture is that among many views, there exist a set of views that are more informative than the others. We build the 3D semantic map based on a likelihood of visibility and 2D recognition confidence and identify the view that best represents the semantics of the trajectory. We use this 3D semantic map and trajectory affinity computed by local rigid transformation to precisely infer labels as a whole. This global inference quantitatively outperforms the baseline approaches in terms of predictive validity, representation robustness, and affinity effectiveness. We demonstrate that our algorithm can robustly compute the semantic labels of a large scale trajectory set (e.g., millions of trajectories) involving real-world human interactions with object, scenes, and people.     
 //文提出了一种新方法，该方法用于向从多视图像流中重建的三维轨迹分配语义的标签。
-语义标签的主要挑战在于由物体和社会交互所引起的自闭塞与光度不一致，致使带有噪声语义标签的轨迹重建高度碎片化。我们通过引入称之为三维语义地图的新代表物来解决这一挑战，这样的语义地图是每个三维轨迹标签的概率分布图，这些三维轨迹由系列的语义多视识别物构成。我们结论是在多视情况下存在某一集合的视图是包含更多的信息，相比其他视图。我们构建了三维的语义地图，该地图基于视觉的似然性与二维识别物的置信和辨别最好的语义轨迹代表视图。我们使用这个三维语义地图和局部刚体信息计算的轨迹类同来精确推断标签作为整体。  
-
+语义标签的主要挑战在于由物体和社会交互所引起的自闭塞与光度不一致，致使带有噪声语义标签的轨迹重建高度碎片化。我们通过引入称之为三维语义地图的新代表物来解决这一挑战，这样的语义地图是每个三维轨迹标签的概率分布图，这些三维轨迹由系列的语义多视识别物构成。我们结论是在多视情况下存在某一集合的视图是包含更多的信息，相比其他视图。我们构建了三维的语义地图，该地图基于视觉的似然性与二维识别物的置信和辨别最好的语义轨迹代表视图。我们使用这个三维语义地图和局部刚体信息计算的轨迹类同来精确推断标签作为整体。这个全局推断在预测正确性、代表鲁棒性和同类有效性方面优于其他的基本方法。我们阐明了我们的算法能够稳健地计算大尺度轨迹集（如：百万级别的轨迹）的语义标签，这些大尺度轨迹涉及了真实世界各种的人类与物体，场景和人物之间的交互。      
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Semantic-Trajectory-Reconstruction-from-3D-Pixel-Continuum.png)
 
 
@@ -98,12 +97,13 @@ This paper presents a method to assign a semantic label to a 3D reconstructed tr
 
 #### 3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare
 
-*by Abhijit Kundu, Yin Li, James M. Rehg*
+**3D-RCNN: 实时级别的渲染和比较的三维目标重建**     
+*by Abhijit Kundu, Yin Li, James M. Rehg*     
 
 **Abstract**
 
-We present a fast inverse-graphics framework for instance-level 3D scene understanding. We train a deep convolutional network that learns to map image regions to the full 3D shape and pose of all object instances in the image. Our method produces a compact 3D representation of the scene, which can be readily used for applications like autonomous driving. Many traditional 2D vision outputs, like instance segmentations and depth-maps, can be obtained by simply rendering our output 3D scene model. We exploit class-specific shape priors by learning a low dimensional shape-space from collections of CAD models. We present novel representations of shape and pose, that strive towards better 3D equivariance and generalization. In order to exploit rich supervisory signals in the form of 2D annotations like segmentation, we propose a differentiable Render-and-Compare loss that allows 3D shape and pose to be learned with 2D supervision. We evaluate our method on the challenging real-world datasets of Pascal3D+ and KITTI, where we achieve state-of-the-art results.
-
+We present a fast inverse-graphics framework for instance-level 3D scene understanding. We train a deep convolutional network that learns to map image regions to the full 3D shape and pose of all object instances in the image. Our method produces a compact 3D representation of the scene, which can be readily used for applications like autonomous driving. Many traditional 2D vision outputs, like instance segmentations and depth-maps, can be obtained by simply rendering our output 3D scene model. We exploit class-specific shape priors by learning a low dimensional shape-space from collections of CAD models. We present novel representations of shape and pose, that strive towards better 3D equivariance and generalization. In order to exploit rich supervisory signals in the form of 2D annotations like segmentation, we propose a differentiable Render-and-Compare loss that allows 3D shape and pose to be learned with 2D supervision. We evaluate our method on the challenging real-world datasets of Pascal3D+ and KITTI, where we achieve state-of-the-art results.     
+//
 
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-RCNN-Instance-level-3D-Object-Reconstruction-via-Render-and-Compare.png)
