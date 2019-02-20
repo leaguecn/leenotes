@@ -4,7 +4,15 @@
 
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
-1. [The real reason America is scared of Huawei: internet-connected everything](#the-real-reason-america-is-scared-of-huawei-internet-connected-everything)
+1. [](#)
+1. [Explainer: What is a quantum computer?|解释者：量子计算机是什么东东？](#explainer-what-is-a-quantum-computer%7C%E8%A7%A3%E9%87%8A%E8%80%85%EF%BC%9A%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%9C%E4%B8%9C%EF%BC%9F)
+    1. [What is a qubit?](#what-is-a-qubit)
+    1. [What is superposition?](#what-is-superposition)
+    1. [What is entanglement?](#what-is-entanglement)
+    1. [What is decoherence?](#what-is-decoherence)
+    1. [What is quantum supremacy?](#what-is-quantum-supremacy)
+    1. [Where is a quantum computer likely to be most useful first?](#where-is-a-quantum-computer-likely-to-be-most-useful-first)
+1. [The real reason America is scared of Huawei: internet-connected everything|美国害怕华为公司真实原因：万物互联](#the-real-reason-america-is-scared-of-huawei-internet-connected-everything%7C%E7%BE%8E%E5%9B%BD%E5%AE%B3%E6%80%95%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%8F%B8%E7%9C%9F%E5%AE%9E%E5%8E%9F%E5%9B%A0%EF%BC%9A%E4%B8%87%E7%89%A9%E4%BA%92%E8%81%94)
     1. [WHAT IS 5G?](#what-is-5g)
     1. [WHY IS IT BETTER?](#why-is-it-better)
     1. [WHAT ARE THE SECURITY RISKS?](#what-are-the-security-risks)
@@ -12,13 +20,90 @@
     1. [WHY IS HUAWEI’S 5G CAUSING SO MUCH CONCERN?](#why-is-huawei%E2%80%99s-5g-causing-so-much-concern)
 
 <!-- /MarkdownTOC -->
+-------------
+
+## [Explainer: What is a quantum computer?|解释者：量子计算机是什么东东？](https://www.technologyreview.com/s/612844/what-is-quantum-computing/)
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/What-is-a-quantum-computer.jpg)
+
+**How it works, why it’s so powerful, and where it’s likely to be most useful first**
+
+*by [Martin Giles](https://www.technologyreview.com/profile/martin-giles/) January 29, 2019*
+
+Aquantum computer harnesses some of the almost-mystical phenomena of quantum mechanics to deliver huge leaps forward in processing power. Quantum machines promise to outstrip even the most capable of today’s—and tomorrow’s—supercomputers.
+
+They won’t wipe out conventional computers, though. Using a classical machine will still be the easiest and most economical solution for tackling most problems. But quantum computers promise to power exciting advances in various fields, from materials science to pharmaceuticals research. Companies are already experimenting with them to develop things like lighter and more powerful batteries for electric cars, and to help create novel drugs.
+
+The secret to a quantum computer’s power lies in its ability to generate and manipulate quantum bits, or qubits.
+
+### What is a qubit?
+
+![](https://cdn.technologyreview.com/i/images/quantumexplainer-01.png?sw=280&cx=0&cy=0&cw=1600&ch=1600)
+
+Today's computers use bits—a stream of electrical or optical pulses representing *1*s or *0*s. Everything from your tweets and e-mails to your iTunes songs and YouTube videos are essentially long strings of these binary digits.
+
+Quantum computers, on the other hand, use qubits, which are typically subatomic particles such as electrons or photons. Generating and managing qubits is a scientific and engineering challenge. Some companies, such as IBM, Google, and Rigetti Computing, use superconducting circuits cooled to temperatures colder than deep space. Others, like IonQ, trap individual atoms in electromagnetic fields on a silicon chip in ultra-high-vacuum chambers. In both cases, the goal is to isolate the qubits in a controlled quantum state.
+
+Qubits have some quirky quantum properties that mean a connected group of them can provide way more processing power than the same number of binary bits. One of those properties is known as superposition and another is called entanglement.
+
+### What is superposition?
+
+![](https://cdn.technologyreview.com/i/images/quantumexplainer-02.png?sw=280&cx=0&cy=0&cw=1600&ch=1600)
+
+Qubits can represent numerous possible combinations of *1*and *0*at the same time. This ability to simultaneously be in multiple states is called superposition. To put qubits into superposition, researchers manipulate them using precision lasers or microwave beams.
+
+Thanks to this counterintuitive phenomenon, a quantum computer with several qubits in superposition can crunch through a vast number of potential outcomes simultaneously. The final result of a calculation emerges only once the qubits are measured, which immediately causes their quantum state to “collapse” to either *1*or *0*. []()
+
+### What is entanglement?
+
+![](https://cdn.technologyreview.com/i/images/quantumexplainer-04.png?sw=280&cx=0&cy=0&cw=1600&ch=1600)
+
+Researchers can generate pairs of qubits that are “entangled,” which means the two members of a pair exist in a single quantum state. Changing the state of one of the qubits will instantaneously change the state of the other one in a predictable way. This happens even if they are separated by very long distances.
+
+Nobody really knows quite how or why entanglement works. It even baffled Einstein, who famously described it as “spooky action at a distance.” But it’s key to the power of quantum computers. In a conventional computer, doubling the number of bits doubles its processing power. But thanks to entanglement, adding extra qubits to a quantum machine produces an exponential increase in its number-crunching ability.
+
+Quantum computers harness entangled qubits in a kind of quantum daisy chain to work their magic. The machines’ ability to speed up calculations using specially designed quantum algorithms is why there’s so much buzz about their potential.
+
+That’s the good news. The bad news is that quantum machines are way more error-prone than classical computers because of decoherence.
+
+### What is decoherence?
+
+![](https://cdn.technologyreview.com/i/images/quantumexplainer-03.png?sw=280&cx=0&cy=0&cw=1600&ch=1600)
+
+The interaction of qubits with their environment in ways that cause their quantum behavior to decay and ultimately disappear is called decoherence. Their quantum state is extremely fragile. The slightest vibration or change in temperature—disturbances known as “noise” in quantum-speak—can cause them to tumble out of superposition before their job has been properly done. That’s why researchers do their best to protect qubits from the outside world in those supercooled fridges and vacuum chambers.
+
+But despite their efforts, noise still causes lots of errors to creep into calculations. [Smart quantum algorithms](https://www.technologyreview.com/s/611139/the-worlds-first-quantum-software-superstore-or-so-it-hopes-is-here/) can compensate for some of these, and adding more qubits also helps. However, it will likely take thousands of standard qubits to create a single, highly reliable one, known as a “logical” qubit. This will sap a lot of a quantum computer’s computational capacity.
+
+And there’s the rub: so far, researchers haven’t been able to generate more than 128 standard qubits (see our qubit counter [here](http://www.qubitcounter.com/)). So we’re still many years away from getting quantum computers that will be broadly useful.
+
+That hasn’t dented pioneers’ hopes of being the first to demonstrate “quantum supremacy.”
+
+### What is quantum supremacy?
+
+![](https://cdn.technologyreview.com/i/images/quantumexplainer-05.png?sw=280&cx=0&cy=0&cw=1600&ch=1600)
+
+It’s the point at which a quantum computer can complete a mathematical calculation that is demonstrably beyond the reach of even the most powerful supercomputer.
+
+It’s still unclear exactly how many qubits will be needed to achieve this because researchers keep finding new algorithms to boost the performance of classical machines, and supercomputing hardware keeps getting better. But researchers and companies are working hard to claim the title, [running tests](https://www.technologyreview.com/s/612381/google-has-enlisted-nasa-to-help-it-prove-quantum-supremacy-within-months/) against some of the world’s most powerful supercomputers.
+
+There’s plenty of debate in the research world about [just how significant achieving this milestone will be](https://www.technologyreview.com/s/610274/google-thinks-its-close-to-quantum-supremacy-heres-what-that-really-means/). Rather than wait for supremacy to be declared, companies are already starting to experiment with quantum computers made by companies like IBM, Rigetti, and D-Wave, a Canadian firm. Chinese firms like Alibaba are also offering access to quantum machines. Some businesses are buying quantum computers, while others are using ones made available [through cloud computing services](https://www.technologyreview.com/s/611962/faster-quantum-computing-in-the-cloud/).
+
+### Where is a quantum computer likely to be most useful first?
+
+![](https://cdn.technologyreview.com/i/images/quantumexplainer-06.png?sw=280&cx=0&cy=0&cw=1600&ch=1600)
+
+One of the most promising applications of quantum computers is for [simulating the behavior of matter](https://www.technologyreview.com/s/603794/chemists-are-first-in-line-for-quantum-computings-benefits/) down to the molecular level. Auto manufacturers like Volkswagen and Daimler are using quantum computers to simulate the chemical composition of electrical-vehicle batteries to help find new ways to improve their performance. And pharmaceutical companies are leveraging them to analyze and compare compounds that could lead to the creation of new drugs.
+
+The machines are also great for optimization problems because they can crunch through vast numbers of potential solutions extremely fast. Airbus, for instance, is using them to help calculate the most fuel-efficient ascent and descent paths for aircraft. And Volkswagen has unveiled a service that calculates the optimal routes for buses and taxis in cities in order to minimize congestion. Some researchers also think the machines could be used [to accelerate artificial intelligence](https://www.technologyreview.com/s/612435/machine-learning-meet-quantum-computing/).
+
+It could take quite a few years for quantum computers to achieve their full potential. Universities and businesses working on them are facing [a shortage of skilled researchers](https://www.technologyreview.com/s/612071/us-takes-first-step-towards-creating-a-quantum-computing-workforce/) in the field—and [a lack of suppliers](https://www.technologyreview.com/s/612760/quantum-computers-component-shortage/) of some key components. But if these exotic new computing machines live up to their promise, they could transform entire industries and turbocharge global innovation.
 
 
 
+--------------
+2019-02-19
 
-
-
-## [The real reason America is scared of Huawei: internet-connected everything](https://www.technologyreview.com/s/612874/the-real-reason-america-is-scared-of-huawei-internet-connected-everything/)
+## [The real reason America is scared of Huawei: internet-connected everything|美国害怕华为公司真实原因：万物互联](https://www.technologyreview.com/s/612874/the-real-reason-america-is-scared-of-huawei-internet-connected-everything/)
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/5gfinal1.jpg)
 
