@@ -103,7 +103,7 @@ This paper presents a method to assign a semantic label to a 3D reconstructed tr
 **Abstract**
 
 We present a fast inverse-graphics framework for instance-level 3D scene understanding. We train a deep convolutional network that learns to map image regions to the full 3D shape and pose of all object instances in the image. Our method produces a compact 3D representation of the scene, which can be readily used for applications like autonomous driving. Many traditional 2D vision outputs, like instance segmentations and depth-maps, can be obtained by simply rendering our output 3D scene model. We exploit class-specific shape priors by learning a low dimensional shape-space from collections of CAD models. We present novel representations of shape and pose, that strive towards better 3D equivariance and generalization. In order to exploit rich supervisory signals in the form of 2D annotations like segmentation, we propose a differentiable Render-and-Compare loss that allows 3D shape and pose to be learned with 2D supervision. We evaluate our method on the challenging real-world datasets of Pascal3D+ and KITTI, where we achieve state-of-the-art results.     
-//
+//我们提出一种快速反向图框架，用于实时级别的三维场景理解。我们训练了了一个深度卷积网络，可以学习将图像区域绘制到图像中的所有实时目标的全部三维形状和姿态中。我们的方法可以生成紧密的三维场景代表物，能迅速用于像自动驾驶这类应用中。许多传统的二维视觉输出，像实时分割和深度图，可以通过简单地翻译我们输出的三维场景模型获得。通过从CAD模型集合中学习一种低维的形状空间，我们探索了明确类别的形状先验信息。我们提出新颖的形状姿态代表物，力求更好的三维等价和概括。为了以分割等二维注解形式开发丰富的监督信号，我们提出了一种可积分的渲染和对比损失方法，允许二维监督的三维形状和姿态被学习。我们在Pascal3D+和KITTI真实世界的挑战数据集中评估了该方法，取得了最先进的结果。     
 
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-RCNN-Instance-level-3D-Object-Reconstruction-via-Render-and-Compare.png)
