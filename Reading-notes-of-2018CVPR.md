@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [Augmenting Crowd-Sourced 3D Reconstructions using Semantic Detections](#augmenting-crowd-sourced-3d-reconstructions-using-semantic-detections)
+    1. [Automatic 3D Indoor Scene Modeling from Single Panorama](#automatic-3d-indoor-scene-modeling-from-single-panorama)
     1. [Alive Caricature from 2D to 3D](#alive-caricature-from-2d-to-3d)
     1. [A Papier-Mache Approach to Learning 3D Surface Generation](#a-papier-mache-approach-to-learning-3d-surface-generation)
     1. [3D Semantic Trajectory Reconstruction from 3D Pixel Continuum](#3d-semantic-trajectory-reconstruction-from-3d-pixel-continuum)
@@ -24,6 +26,31 @@
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
 
+----------------
+**2019-02-20**
+
+#### Augmenting Crowd-Sourced 3D Reconstructions using Semantic Detections
+**使用语义检测的增强交叉源三维重建**     
+*by True Price, Johannes L. Schonberger, Zhen Wei, Marc Pollefeys, Jan-Michael Frahm1*
+
+**Abstract**     
+Image-based 3D reconstruction for Internet photo collections has become a robust technology to produce impressive virtual representations of real-world scenes. However, several fundamental challenges remain for Structure-from-Motion (SfM) pipelines, namely: the placement and reconstruction of transient objects only observed in single views, estimating the absolute scale of the scene, and (suprisingly often) recovering ground surfaces in the scene. We propose a method to jointly address these remaining open problems of SfM. In particular, we focus on detecting people in individual images and accurately placing them into an existing 3D model. As part of this placement, our method also estimates the absolute scale of the scene from object semantics, which in this case constitutes the height distribution of the population. Further, we obtain a smooth approximation of the ground surface and recover the gravity vector of the scene directly from the individual person detections. We demonstrate the results of our approach on a number of unordered Internet photo collections, and we quantitatively evaluate the obtained absolute scene scales.     
+//面向互联网图像集的基于图像三维重建技术已经成为出产真实场景的令人印象深刻的虚拟呈现方面的成熟技术。然后，在运动结构恢复（SFM)中依然存在几个重要大挑战，即：移动(短暂停留)物体的位置和结构仅可以在单一视角中观测，估计场景的真实尺度，和经常要恢复场景地表模型。我们提出了一种新方法，共同强调这些仍然存在SFM中的问题。特别之处，我们着眼于单一图像的人物检测和他们在存在模型中的准确位置。关于位置部分，我们所提方法也可以从物体的语义环境估计场景的真实尺度，构成人群高度的配置信息。此外，我们还可以获得平滑的地表近视面和从单一人物检测中直接地恢复重力向量。我们阐明了所提方法在一系列无序互联网图像集中的实验结果，并且定量估计了已经获得的绝对的场景尺度。
+![](https://github.com/leaguecn/leenotes/raw/master/img/Augmenting-Crowd-Sourced-3D-Reconstructions-using-Semantic-Detections.png)
+
+
+----
+#### Automatic 3D Indoor Scene Modeling from Single Panorama
+**单一全景图像中自动化室内三维场景建模**    
+*by Yang Yang, Shi Jin, Ruiyang Liu, Sing Bing Kang, Jingyi Yu*
+
+**Abstract**    
+We describe a system that automatically extracts 3D geometry of an indoor scene from a single 2D panorama. Our system recovers the spatial layout by finding the floor, walls, and ceiling; it also recovers shapes of typical indoor objects such as furniture. Using sampled perspective subviews, we extract geometric cues (lines, vanishing points, orientation map, and surface normals) and semantic cues (saliency and object detection information). These cues are used for ground plane estimation and occlusion reasoning. The global spatial layout is inferred through a constraint graph on line segments and planar superpixels. The recovered layout is then used to guide shape estimation of the remaining objects using their normal information. Experiments on synthetic and real datasets show that our approach is state-of-the-art in both accuracy and efficiency. Our system can handle cluttered scenes with complex geometry that are challenging to existing techniques.     
+//我们讲述了一个从单张二维全景图像中自动提取室内场景三维几何的系统。我们所提的系统通过寻找地板、墙壁和天花板恢复空间布局，同时可以恢复典型室内物体，如：家具的形状。通过已采样的透视亚视图，我们提取几何索引（如线条，灭点/消失点，方向图和曲面法向量）和语义索引（凸出和目标检测信息）。这些索引被用于地表面估计与闭合推理。全局空间布局通过线割约束图和平面超像素被估计。恢复的布局然后被用于引导遗留物体的形状估计通过他们的法向量信息。在合成和真实数据集中的实验显示了所提方法在精确度和效率均达到先进水平。我们的系统能够处理聚类场景，这类场景包含复杂几何，是当前所存在技术中的挑战。
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Automatic-3D-Indoor-Scene-Modeling-from-Single-Panorama.png)
+
+
 --------------------
 
 **2019-02-19**
@@ -32,35 +59,41 @@
 
 #### Alive Caricature from 2D to 3D
 
+<<<<<<< HEAD
 *by Qianyi Wu, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
+=======
+**二维到三维的生动漫画**     
+*by Qianyi Wu1, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
+>>>>>>> 770c0adacb8f7f842cca400c73459c28b10465e6
 
-**Abstract**
-Caricature is an art form that expresses subjects in abstract, simple and exaggerated views. While many caricatures are 2D images, this paper presents an algorithm for creating expressive 3D caricatures from 2D caricature images with minimum user interaction. The key idea of our approach is to introduce an intrinsic deformation representation that has the capability of extrapolation, enabling us to create a deformation space from standard face datasets, which maintains face constraints and meanwhile is sufficiently large for producing exaggerated face models. Built upon the proposed deformation representation, an optimization model is formulated to find the 3D caricature that captures the style of the 2D caricature image automatically. The experiments show that our approach has better capability in expressing caricatures than those fitting approaches directly using classical parametric face models such as 3DMM and FaceWareHouse. Moreover, our approach is based on standard face datasets and avoids constructing complicated 3D caricature training sets, which provides great flexibility in real applications.
-
+**Abstract**    
+Caricature is an art form that expresses subjects in abstract, simple and exaggerated views. While many caricatures are 2D images, this paper presents an algorithm for creating expressive 3D caricatures from 2D caricature images with minimum user interaction. The key idea of our approach is to introduce an intrinsic deformation representation that has the capability of extrapolation, enabling us to create a deformation space from standard face datasets, which maintains face constraints and meanwhile is sufficiently large for producing exaggerated face models. Built upon the proposed deformation representation, an optimization model is formulated to find the 3D caricature that captures the style of the 2D caricature image automatically. The experiments show that our approach has better capability in expressing caricatures than those fitting approaches directly using classical parametric face models such as 3DMM and FaceWareHouse. Moreover, our approach is based on standard face datasets and avoids constructing complicated 3D caricature training sets, which provides great flexibility in real applications.      
+//漫画是一种艺术的抽象表达方式，简单但视角夸张。然而，许多漫画是二维的图像，本文提出了一种从带有最小用户交互的二维漫画中制作表达丰富的三维漫画算法。所提方法的主要观点是：引入一种内部形变代表物，该代表具有外推能力，激发我们从标准面部数据集中创造一个变形空间。这种变形空间可维持面部约束，同时足够大到可以产夸张的面部模型。建立所提的变形代表物后，一种寻找三维漫画的优化模型被形成，可以自动地捕捉二维漫画图像。实验表明所提方法相对于那些直接利用传统参数化面部模型，如：3DMM和FaceWareHouse的拟合方法，拥有更好漫画表达能力。而且，我们的方法基于标准的面部数据集且避免了构造复杂三维漫画训练集，可以在实际应用中提供很好的灵活性。
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Alive-Caricature-from-2D-to-3D.png)
 
 ------------
 #### A Papier-Mache Approach to Learning 3D Surface Generation
+**一种用于学习三维表面生成的混凝纸浆方法**    
+*by Thibault Groueix, Matthew Fisher, Vladimir G. Kim, Bryan C. Russell, Mathieu Aubry*     
 
-*by Thibault Groueix, Matthew Fisher, Vladimir G. Kim, Bryan C. Russell, Mathieu Aubry*
-
-**Abstract**
-We introduce a method for learning to generate the surface of 3D shapes. Our approach represents a 3D shape as a collection of parametric surface elements and, in contrast to methods generating voxel grids or point clouds, naturally infers a surface representation of the shape. Beyond its novelty, our new shape generation framework, AtlasNet, comes with significant advantages, such as improved precision and generalization capabilities, and the possibility to generate a shape of arbitrary resolution without memory issues. We demonstrate these benefits and compare to strong baselines on the ShapeNet benchmark for two applications: (i) autoencoding shapes, and (ii) single-view reconstruction from a still image. We also provide results showing its potential for other applications, such as morphing, parametrization, super-resolution, matching, and co-segmentation.
-
+**Abstract**      
+We introduce a method for learning to generate the surface of 3D shapes. Our approach represents a 3D shape as a collection of parametric surface elements and, in contrast to methods generating voxel grids or point clouds, naturally infers a surface representation of the shape. Beyond its novelty, our new shape generation framework, AtlasNet, comes with significant advantages, such as improved precision and generalization capabilities, and the possibility to generate a shape of arbitrary resolution without memory issues. We demonstrate these benefits and compare to strong baselines on the ShapeNet benchmark for two applications: (i) autoencoding shapes, and (ii) single-view reconstruction from a still image. We also provide results showing its potential for other applications, such as morphing, parametrization, super-resolution, matching, and co-segmentation.     
+//我们介绍了一种用学习来生成三维形状表面的方法。所提方法将一个三维形状表示为一个参数化表面元素的集合，和生成体素网格或点云相比，自然地推断形状的表面代表物。在新颖性方面，我们的新形状生成框架，AtlasNet带有重要的先进，如：提高精度和归纳能力与生成任意分辨率形状可能性没有内存问题。我们阐明了这些优点并在ShapeNet测试数据上为两种应用：1）自动编码形状，2）单视静态图像重建，比较了长基线。我们同时提供的结果显示所提方法对于其他应用的潜在可能，如：变换，参数化，超分辨率，匹配和协作分割。        
 ![](https://github.com/leaguecn/leenotes/raw/master/img/A-Papier-Mache-Approach-to-Learning-3D-Surface-Generation.png)
 
 -------
 
 #### 3D Semantic Trajectory Reconstruction from 3D Pixel Continuum
 
-*by Jae Shin Yoon, Ziwei Li & Hyun Soo Park*
+**三维像素连续体的三维语义轨迹重建**    
+*by Jae Shin Yoon, Ziwei Li & Hyun Soo Park*     
 
 
 **Abstract**
-This paper presents a method to assign a semantic label to a 3D reconstructed trajectory from multiview image streams. The key challenge of the semantic labeling lies in the self-occlusion and photometric inconsistency caused by object and social interactions, resulting in highly fragmented trajectory reconstruction with noisy semantic labels. We address this challenge by introducing a new representation called 3D semantic map—a probability distribution over labels per 3D trajectory constructed by a set of semantic recognition across multiple views. Our conjecture is that among many views, there exist a set of views that are more informative than the others. We build the 3D semantic map based on a likelihood of visibility and 2D recognition confidence and identify the view that best represents the semantics of the trajectory. We use this 3D semantic map and trajectory affinity computed by local rigid transformation to precisely infer labels as a whole. This global inference quantitatively outperforms the baseline approaches in terms of predictive validity, representation robustness, and affinity effectiveness. We demonstrate that our algorithm can robustly compute the semantic labels of a large scale trajectory set (e.g., millions of trajectories) involving real-world human interactions with object, scenes, and people.
-
-
+This paper presents a method to assign a semantic label to a 3D reconstructed trajectory from multiview image streams. The key challenge of the semantic labeling lies in the self-occlusion and photometric inconsistency caused by object and social interactions, resulting in highly fragmented trajectory reconstruction with noisy semantic labels. We address this challenge by introducing a new representation called 3D semantic map—a probability distribution over labels per 3D trajectory constructed by a set of semantic recognition across multiple views. Our conjecture is that among many views, there exist a set of views that are more informative than the others. We build the 3D semantic map based on a likelihood of visibility and 2D recognition confidence and identify the view that best represents the semantics of the trajectory. We use this 3D semantic map and trajectory affinity computed by local rigid transformation to precisely infer labels as a whole. This global inference quantitatively outperforms the baseline approaches in terms of predictive validity, representation robustness, and affinity effectiveness. We demonstrate that our algorithm can robustly compute the semantic labels of a large scale trajectory set (e.g., millions of trajectories) involving real-world human interactions with object, scenes, and people.     
+//文提出了一种新方法，该方法用于向从多视图像流中重建的三维轨迹分配语义的标签。
+语义标签的主要挑战在于由物体和社会交互所引起的自闭塞与光度不一致，致使带有噪声语义标签的轨迹重建高度碎片化。我们通过引入称之为三维语义地图的新代表物来解决这一挑战，这样的语义地图是每个三维轨迹标签的概率分布图，这些三维轨迹由系列的语义多视识别物构成。我们结论是在多视情况下存在某一集合的视图是包含更多的信息，相比其他视图。我们构建了三维的语义地图，该地图基于视觉的似然性与二维识别物的置信和辨别最好的语义轨迹代表视图。我们使用这个三维语义地图和局部刚体信息计算的轨迹类同来精确推断标签作为整体。这个全局推断在预测正确性、代表鲁棒性和同类有效性方面优于其他的基本方法。我们阐明了我们的算法能够稳健地计算大尺度轨迹集（如：百万级别的轨迹）的语义标签，这些大尺度轨迹涉及了真实世界各种的人类与物体，场景和人物之间的交互。      
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Semantic-Trajectory-Reconstruction-from-3D-Pixel-Continuum.png)
 
 
@@ -68,12 +101,13 @@ This paper presents a method to assign a semantic label to a 3D reconstructed tr
 
 #### 3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare
 
-*by Abhijit Kundu, Yin Li, James M. Rehg*
+**3D-RCNN: 实时级别的渲染和比较的三维目标重建**     
+*by Abhijit Kundu, Yin Li, James M. Rehg*     
 
 **Abstract**
 
-We present a fast inverse-graphics framework for instance-level 3D scene understanding. We train a deep convolutional network that learns to map image regions to the full 3D shape and pose of all object instances in the image. Our method produces a compact 3D representation of the scene, which can be readily used for applications like autonomous driving. Many traditional 2D vision outputs, like instance segmentations and depth-maps, can be obtained by simply rendering our output 3D scene model. We exploit class-specific shape priors by learning a low dimensional shape-space from collections of CAD models. We present novel representations of shape and pose, that strive towards better 3D equivariance and generalization. In order to exploit rich supervisory signals in the form of 2D annotations like segmentation, we propose a differentiable Render-and-Compare loss that allows 3D shape and pose to be learned with 2D supervision. We evaluate our method on the challenging real-world datasets of Pascal3D+ and KITTI, where we achieve state-of-the-art results.
-
+We present a fast inverse-graphics framework for instance-level 3D scene understanding. We train a deep convolutional network that learns to map image regions to the full 3D shape and pose of all object instances in the image. Our method produces a compact 3D representation of the scene, which can be readily used for applications like autonomous driving. Many traditional 2D vision outputs, like instance segmentations and depth-maps, can be obtained by simply rendering our output 3D scene model. We exploit class-specific shape priors by learning a low dimensional shape-space from collections of CAD models. We present novel representations of shape and pose, that strive towards better 3D equivariance and generalization. In order to exploit rich supervisory signals in the form of 2D annotations like segmentation, we propose a differentiable Render-and-Compare loss that allows 3D shape and pose to be learned with 2D supervision. We evaluate our method on the challenging real-world datasets of Pascal3D+ and KITTI, where we achieve state-of-the-art results.     
+//我们提出一种快速反向图框架，用于实时级别的三维场景理解。我们训练了了一个深度卷积网络，可以学习将图像区域绘制到图像中的所有实时目标的全部三维形状和姿态中。我们的方法可以生成紧密的三维场景代表物，能迅速用于像自动驾驶这类应用中。许多传统的二维视觉输出，像实时分割和深度图，可以通过简单地翻译我们输出的三维场景模型获得。通过从CAD模型集合中学习一种低维的形状空间，我们探索了明确类别的形状先验信息。我们提出新颖的形状姿态代表物，力求更好的三维等价和概括。为了以分割等二维注解形式开发丰富的监督信号，我们提出了一种可积分的渲染和对比损失方法，允许二维监督的三维形状和姿态被学习。我们在Pascal3D+和KITTI真实世界的挑战数据集中评估了该方法，取得了最先进的结果。     
 
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-RCNN-Instance-level-3D-Object-Reconstruction-via-Render-and-Compare.png)
