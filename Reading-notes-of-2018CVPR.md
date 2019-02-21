@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?](#can-spatiotemporal-3d-cnns-retrace-the-history-of-2d-cnns-and-imagenet)
+    1. [Coding Kendall’s Shape Trajectories for 3D Action Recognition](#coding-kendall%E2%80%99s-shape-trajectories-for-3d-action-recognition)
     1. [Augmenting Crowd-Sourced 3D Reconstructions using Semantic Detections](#augmenting-crowd-sourced-3d-reconstructions-using-semantic-detections)
     1. [Automatic 3D Indoor Scene Modeling from Single Panorama](#automatic-3d-indoor-scene-modeling-from-single-panorama)
     1. [Alive Caricature from 2D to 3D](#alive-caricature-from-2d-to-3d)
@@ -25,6 +27,34 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+----------------------
+
+**2019-02-21**
+
+#### Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?
+
+**时空三维CNNs可以重新追踪二维CNNs和ImageNet的历史么？**     
+*by Kensho Hara, Hirokatsu Kataoka, Yutaka Satoh*     
+
+**Abstract**     
+The purpose of this study is to determine whether current video datasets have sufficient data for training very deep convolutional neural networks (CNNs) with spatio-temporal three-dimensional (3D) kernels. Recently, the performance levels of 3D CNNs in the field of action recognition have improved significantly. However, to date, conventional research has only explored relatively shallow 3D architectures. We examine the architectures of various 3D CNNs from relatively shallow to very deep ones on current video datasets. Based on the results of those experiments, the following conclusions could be obtained: (i) ResNet-18 training resulted in significant overfitting for UCF-101, HMDB-51, and ActivityNet but not for Kinetics. (ii) The Kinetics dataset has sufficient data for training of deep 3D CNNs, and enables training of up to 152 ResNets layers, interestingly similar to 2D ResNets on ImageNet. ResNeXt-101 achieved 78.4% average accuracy on the Kinetics test set. (iii) Kinetics pretrained simple 3D architectures outperforms complex 2D architectures, and the pretrained ResNeXt-101 achieved 94.5% and 70.2% on UCF-101 and HMDB-51, respectively. The use of 2D CNNs trained on ImageNet has produced significant progress in various tasks in image. We believe that using deep 3D CNNs together with Kinetics will retrace the successful history of 2D CNNs and ImageNet, and stimulate advances in computer vision for videos. The codes and pretrained models used in this study are publicly available1.      
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Can-Spatiotemporal-3D-CNNs-Retrace-the-History-of-2D-CNNs-and-ImageNet.png)
+
+--------
+
+#### Coding Kendall’s Shape Trajectories for 3D Action Recognition
+
+**为三维动作识别编码Kendall形状轨迹**     
+*by Amor Ben Tanfous, Hassen Drira, Boulbaba Ben Amor*
+
+**Abstract**    
+Suitable shape representations as well as their temporal evolution, termed trajectories, often lie to non-linear manifolds. This puts an additional constraint (i.e., non-linearity) in using conventional machine learning techniques for the purpose of classification, event detection, prediction, etc. This paper accommodates the well-known Sparse Coding and Dictionary Learning to the Kendall’s shape space and illustrates effective coding of 3D skeletal sequences for action recognition. Grounding on the Riemannian geometry of the shape space, an intrinsic sparse coding and dictionary learning formulation is proposed for static skeletal shapes to overcome the inherent non-linearity of the manifold. As a main result, initial trajectories give rise to sparse code functions with suitable computational properties, including sparsity and vector space representation. To achieve action recognition, two different classification schemes were adopted. A bi-directional LSTM is directly performed on sparse code functions, while a linear SVM is applied after representing sparse code functions using Fourier temporal pyramid. Experiments conducted on three publicly available datasets show the superiority of the proposed approach compared to existing Riemannian representations and its competitiveness with respect to other recently-proposed approaches. When the benefits of invariance are maintained from the Kendall’s shape representation, our approach not only overcomes the problem of non-linearity but also yields to discriminative sparse code functions.      
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Coding-Kendall’s-Shape-Trajectories-for-3D-Action-Recognition.png)
+
 
 ----------------
 **2019-02-20**
