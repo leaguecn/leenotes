@@ -94,12 +94,8 @@ We describe a system that automatically extracts 3D geometry of an indoor scene 
 
 #### Alive Caricature from 2D to 3D
 
-<<<<<<< HEAD
 *by Qianyi Wu, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
-=======
 **二维到三维的生动漫画**     
-*by Qianyi Wu1, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
->>>>>>> 770c0adacb8f7f842cca400c73459c28b10465e6
 
 **Abstract**    
 Caricature is an art form that expresses subjects in abstract, simple and exaggerated views. While many caricatures are 2D images, this paper presents an algorithm for creating expressive 3D caricatures from 2D caricature images with minimum user interaction. The key idea of our approach is to introduce an intrinsic deformation representation that has the capability of extrapolation, enabling us to create a deformation space from standard face datasets, which maintains face constraints and meanwhile is sufficiently large for producing exaggerated face models. Built upon the proposed deformation representation, an optimization model is formulated to find the 3D caricature that captures the style of the 2D caricature image automatically. The experiments show that our approach has better capability in expressing caricatures than those fitting approaches directly using classical parametric face models such as 3DMM and FaceWareHouse. Moreover, our approach is based on standard face datasets and avoids constructing complicated 3D caricature training sets, which provides great flexibility in real applications.      
