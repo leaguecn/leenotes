@@ -160,7 +160,7 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 We propose a scalable, efficient and accurate approach  to retrieve 3D models for objects in the wild. Our contribution is twofold. We first present a 3D pose estimation approach for object categories which significantly outperforms the state-of-the-art on Pascal3D+. Second, we use the estimated pose as a prior to retrieve 3D models which accurately represent the geometry of objects in RGB images. For this purpose, we render depth images from 3D models under our predicted pose and match learned image descriptors of RGB images against those of rendered depth images using a CNN-based multi-view metric learning approach. In this way, we are the first to report quantitative results for 3D model retrieval on Pascal3D+, where our method chooses the same models as human annotators for 50% of the validation images on average. In addition, we show that our method, which was trained purely on Pascal3D+, retrieves rich and accurate 3D models from ShapeNet given RGB images of objects in the wild.
 
-//我们
+//我们提出一种多尺度、高效和准确的真实世界三维模型恢复方法。我们的贡献可以达两倍。我们首先提出了一种目标物类别三维姿态估计方法，明显优于在Pascal3D+上最先进的方法。然后，我们将估计的姿态作为恢复三维模型的先验信息，可以准确地再现彩色图像中的目标物几何特征。为此，我们渲染了在预测姿态下三维模型的深度图并将已彩色图像的学习描述子与渲染的深度图像匹配，使用基于CNN的多视学习方法。这样，我们是首个在Pascal3D+上提交三维模型恢复量化结果的团队，我们的方法选择的同样的模型作为人物注解，可以得到平均50%图像可用率。此外，我们表明了所提方法，仅仅使用Pascal3D+数据训练，就从ShapeNet提供的真实世界目标彩色图像中恢复了丰富和准确的三维模型。     
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Pose-Estimation-and-3D-Model-Retrieval-for-Objects-in-the-Wild.png)
 
@@ -173,7 +173,7 @@ We propose a scalable, efficient and accurate approach  to retrieve 3D models fo
 
 **Abstract**
 We develop a 3D object detection algorithm that uses latent support surfaces to capture contextual relationships in indoor scenes. Existing 3D representations for RGB-D images capture the local shape and appearance of object categories, but have limited power to represent objects with different visual styles. The detection of small objects is also challenging because the search space is very large in 3D scenes. However, we observe that much of the shape variation within 3D object categories can be explained by the location of a latent support surface, and smaller objects are often supported by larger objects. Therefore, we explicitly use latent support surfaces to better represent the 3D appearance of large objects, and provide contextual cues to improve the detection of small objects. We evaluate our model with 19 object categories from the SUN RGB-D database, and demonstrate state-of-the-art performance.     
-//
+//我们开发了一种三维模型检测算法，该算法使用潜在支持面来捕捉室内场景的背景关系。已有的彩色深度图像三维再现捕获目标类别的局部形状和表面，但是对于再现不同视觉风格的目标能力不足。小型物体的检测也是一方面的挑战性问题，因为在三维场景下的搜索空间是巨大的。然而，我们观测到许多的具有三维目标类别的形状变量可以被潜在支持面的位置所解释，且更小的目标经常被大型的目标所支撑着。因此，我们明确使用潜在支持面来更好地再现大型目标的三维表面，并提供背景索引来提高小型目标的检测。我们使用从SUN RGB-D数据集中的19个目标类别评估了所提模型，表明该模型的先进性能。     
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Object-Detection-with-Latent-Support-Surfaces.png)
 
