@@ -188,11 +188,20 @@ We develop a 3D object detection algorithm that uses latent support surfaces to 
 
 **Abstract**
 
-This article presents for the first time a global method for registering 3D curves with 3D surfaces without requiring an initialization. 
+This article presents for the first time a global method for registering 3D curves with 3D surfaces without requiring an initialization.     
 本文首次提出了三维曲线与三维曲面配准方法，该方法不要求初始化参数。
-The algorithm works with 2-tuples point+vector that consist in pairs of points augmented with the information of their tangents or normals. 
+The algorithm works with 2-tuples point+vector that consist in pairs of points augmented with the information of their tangents or normals.      
+算法使用2簇由点对和它们的正切值或法向量增强组成的点和向量工作。
+A closed-form solution for determining the alignment transformation from a pair of matching 2-tuples is proposed.    
+一种紧凑型方案提出来检测匹配2簇的对齐变换信息。
 
-A closed-form solution for determining the alignment transformation from a pair of matching 2-tuples is proposed. In addition, the set of necessary conditions for two 2-tuples to match is derived. This allows fast search of correspondences that are used in an hypothesise-and-test framework for accomplishing global registration. Comparative experiments demonstrate that the proposed algorithm is the first effective solution for curve vs surface registration, with the method achieving accurate alignment in situations of small overlap and large percentage of outliers in a fraction of a second. The proposed framework is extended to the cases of curve vs curve and surface vs surface registration, with the former being particularly relevant since it is also a largely unsolved problem.
+ In addition, the set of necessary conditions for two 2-tuples to match is derived. 
+而且，两个匹配2簇的必需条件集被提取。
+This allows fast search of correspondences that are used in an hypothesise-and-test framework for accomplishing global registration. 
+该方法允许快速搜索用于完成全局匹配的假设测试框架的匹配对。
+Comparative experiments demonstrate that the proposed algorithm is the first effective solution for curve vs surface registration, with the method achieving accurate alignment in situations of small overlap and large percentage of outliers in a fraction of a second.
+对比实验表明了所提算法是曲线和表面匹配的最有效解决方案，该方法获取的精度与 
+ The proposed framework is extended to the cases of curve vs curve and surface vs surface registration, with the former being particularly relevant since it is also a largely unsolved problem.
 
 
 
