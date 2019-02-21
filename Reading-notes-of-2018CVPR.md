@@ -10,6 +10,7 @@
     1. [Augmenting Crowd-Sourced 3D Reconstructions using Semantic Detections](#augmenting-crowd-sourced-3d-reconstructions-using-semantic-detections)
     1. [Automatic 3D Indoor Scene Modeling from Single Panorama](#automatic-3d-indoor-scene-modeling-from-single-panorama)
     1. [Alive Caricature from 2D to 3D](#alive-caricature-from-2d-to-3d)
+1. [*by Qianyi Wu, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*](#by-qianyi-wu-juyong-zhang-yu-kun-lai-jianmin-zheng-and-jianfei-cai)
     1. [A Papier-Mache Approach to Learning 3D Surface Generation](#a-papier-mache-approach-to-learning-3d-surface-generation)
     1. [3D Semantic Trajectory Reconstruction from 3D Pixel Continuum](#3d-semantic-trajectory-reconstruction-from-3d-pixel-continuum)
     1. [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](#3d-rcnn-instance-level-3d-object-reconstruction-via-render-and-compare)
@@ -152,14 +153,14 @@ We present a fast inverse-graphics framework for instance-level 3D scene underst
 
 
 #### 3D Pose Estimation and 3D Model Retrieval for Objects in the Wild
- 
-*by Alexander Grabner, Peter M. Roth, Vincent Lepetit*
+**真实世界中目标的三维姿态估计和三维模型恢复**     
+*by Alexander Grabner, Peter M. Roth, Vincent Lepetit*      
 
 **Abstract**
 
 We propose a scalable, efficient and accurate approach  to retrieve 3D models for objects in the wild. Our contribution is twofold. We first present a 3D pose estimation approach for object categories which significantly outperforms the state-of-the-art on Pascal3D+. Second, we use the estimated pose as a prior to retrieve 3D models which accurately represent the geometry of objects in RGB images. For this purpose, we render depth images from 3D models under our predicted pose and match learned image descriptors of RGB images against those of rendered depth images using a CNN-based multi-view metric learning approach. In this way, we are the first to report quantitative results for 3D model retrieval on Pascal3D+, where our method chooses the same models as human annotators for 50% of the validation images on average. In addition, we show that our method, which was trained purely on Pascal3D+, retrieves rich and accurate 3D models from ShapeNet given RGB images of objects in the wild.
- 
-我们提出了
+
+//我们
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Pose-Estimation-and-3D-Model-Retrieval-for-Objects-in-the-Wild.png)
 
@@ -167,12 +168,12 @@ We propose a scalable, efficient and accurate approach  to retrieve 3D models fo
 -------------------
 
 #### 3D Object Detection with Latent Support Surfaces
-
+**使用潜在的支持表面检测三维物体**     
 *by Zhile Ren & Erik B. Sudderth*
 
 **Abstract**
-We develop a 3D object detection algorithm that uses latent support surfaces to capture contextual relationships in indoor scenes. Existing 3D representations for RGB-D images capture the local shape and appearance of object categories, but have limited power to represent objects with different visual styles. The detection of small objects is also challenging because the search space is very large in 3D scenes. However, we observe that much of the shape variation within 3D object categories can be explained by the location of a latent support surface, and smaller objects are often supported by larger objects. Therefore, we explicitly use latent support surfaces to better represent the 3D appearance of large objects, and provide contextual cues to improve the detection of small objects. We evaluate our model with 19 object categories from the SUN RGB-D database, and demonstrate state-of-the-art performance.
-
+We develop a 3D object detection algorithm that uses latent support surfaces to capture contextual relationships in indoor scenes. Existing 3D representations for RGB-D images capture the local shape and appearance of object categories, but have limited power to represent objects with different visual styles. The detection of small objects is also challenging because the search space is very large in 3D scenes. However, we observe that much of the shape variation within 3D object categories can be explained by the location of a latent support surface, and smaller objects are often supported by larger objects. Therefore, we explicitly use latent support surfaces to better represent the 3D appearance of large objects, and provide contextual cues to improve the detection of small objects. We evaluate our model with 19 object categories from the SUN RGB-D database, and demonstrate state-of-the-art performance.     
+//
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/3D-Object-Detection-with-Latent-Support-Surfaces.png)
 
@@ -181,7 +182,7 @@ We develop a 3D object detection algorithm that uses latent support surfaces to 
 
 #### 3D Registration of Curves and Surfaces using Local Differential Information
 
-
+**使用局部微分信息进行三维曲线和表面配准**     
 *by Carolina Raposo and Joao P. Barreto*
 
 
@@ -204,7 +205,8 @@ A closed-form solution for determining the alignment transformation from a pair 
 
 #### 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks
 
-*by Benjamin Graham, Martin Engelcke and Laurens van der Maaten*
+**亚流形稀疏卷积网络的三维语义分割**    
+*by Benjamin Graham, Martin Engelcke and Laurens van der Maaten*      
 
 **Abstract**
 
