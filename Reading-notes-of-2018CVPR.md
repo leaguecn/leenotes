@@ -94,9 +94,9 @@ We describe a system that automatically extracts 3D geometry of an indoor scene 
 
 #### Alive Caricature from 2D to 3D
 
-*by Qianyi Wu, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
 **二维到三维的生动漫画**     
 
+*by Qianyi Wu, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*
 **Abstract**    
 Caricature is an art form that expresses subjects in abstract, simple and exaggerated views. While many caricatures are 2D images, this paper presents an algorithm for creating expressive 3D caricatures from 2D caricature images with minimum user interaction. The key idea of our approach is to introduce an intrinsic deformation representation that has the capability of extrapolation, enabling us to create a deformation space from standard face datasets, which maintains face constraints and meanwhile is sufficiently large for producing exaggerated face models. Built upon the proposed deformation representation, an optimization model is formulated to find the 3D caricature that captures the style of the 2D caricature image automatically. The experiments show that our approach has better capability in expressing caricatures than those fitting approaches directly using classical parametric face models such as 3DMM and FaceWareHouse. Moreover, our approach is based on standard face datasets and avoids constructing complicated 3D caricature training sets, which provides great flexibility in real applications.      
 //漫画是一种艺术的抽象表达方式，简单但视角夸张。然而，许多漫画是二维的图像，本文提出了一种从带有最小用户交互的二维漫画中制作表达丰富的三维漫画算法。所提方法的主要观点是：引入一种内部形变代表物，该代表具有外推能力，激发我们从标准面部数据集中创造一个变形空间。这种变形空间可维持面部约束，同时足够大到可以产夸张的面部模型。建立所提的变形代表物后，一种寻找三维漫画的优化模型被形成，可以自动地捕捉二维漫画图像。实验表明所提方法相对于那些直接利用传统参数化面部模型，如：3DMM和FaceWareHouse的拟合方法，拥有更好漫画表达能力。而且，我们的方法基于标准的面部数据集且避免了构造复杂三维漫画训练集，可以在实际应用中提供很好的灵活性。
