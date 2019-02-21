@@ -10,7 +10,6 @@
     1. [Augmenting Crowd-Sourced 3D Reconstructions using Semantic Detections](#augmenting-crowd-sourced-3d-reconstructions-using-semantic-detections)
     1. [Automatic 3D Indoor Scene Modeling from Single Panorama](#automatic-3d-indoor-scene-modeling-from-single-panorama)
     1. [Alive Caricature from 2D to 3D](#alive-caricature-from-2d-to-3d)
-1. [*by Qianyi Wu, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng and Jianfei Cai*](#by-qianyi-wu-juyong-zhang-yu-kun-lai-jianmin-zheng-and-jianfei-cai)
     1. [A Papier-Mache Approach to Learning 3D Surface Generation](#a-papier-mache-approach-to-learning-3d-surface-generation)
     1. [3D Semantic Trajectory Reconstruction from 3D Pixel Continuum](#3d-semantic-trajectory-reconstruction-from-3d-pixel-continuum)
     1. [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](#3d-rcnn-instance-level-3d-object-reconstruction-via-render-and-compare)
@@ -196,7 +195,7 @@ This article presents for the first time a global method for registering 3D curv
 
 #### 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks
 
-**亚流形稀疏卷积网络的三维语义分割**    
+**子流形稀疏卷积网络的三维语义分割**    
 *by Benjamin Graham, Martin Engelcke and Laurens van der Maaten*      
 
 **Abstract**
