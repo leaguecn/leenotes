@@ -148,14 +148,14 @@
 
 ### Hack app
 
-+ [Lucky Patcher](https://www.luckypatchers.com/download/)
++ [Lucky Patcher](https://www.luckypatchers.com/download/)      
 ![Lucky-Patcher-icon](https://www.luckypatchers.com/wp-content/uploads/2016/03/Lucky-patcher-logo.webp)
 
 ### Root manager
 
-+ [SuperSU](http://supersu.com/)
++ [SuperSU](http://supersu.com/)       
 ![SuperSU-snapshot](http://supersu.com/img/phone.gif)
-+ [Magisk](https://magiskroot.net/install-download-magisk-manager-latest/)
++ [Magisk](https://magiskroot.net/install-download-magisk-manager-latest/)    
 ![Magisk-manager](https://magiskroot.net/wp-content/uploads/2017/07/magisk-manager-1024x576.webp)
 
 ### System cleaner
