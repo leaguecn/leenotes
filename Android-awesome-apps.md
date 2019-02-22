@@ -26,6 +26,7 @@
     1. [Root manager](#root-manager)
     1. [System cleaner](#system-cleaner)
 1. [One More Thing](#one-more-thing)
+    1. [Deploy linux](#deploy-linux)
 
 <!-- /MarkdownTOC -->
 
@@ -147,12 +148,15 @@
 
 ### Hack app
 
-+ Lucky Patcher
++ [Lucky Patcher](https://www.luckypatchers.com/download/)
+![Lucky-Patcher-icon](https://www.luckypatchers.com/wp-content/uploads/2016/03/Lucky-patcher-logo.webp)
 
 ### Root manager
 
-+ SuperSU
-+ Magisk
++ [SuperSU](http://supersu.com/)
+![SuperSU-snapshot](http://supersu.com/img/phone.gif)
++ [Magisk](https://magiskroot.net/install-download-magisk-manager-latest/)
+![Magisk-manager](https://magiskroot.net/wp-content/uploads/2017/07/magisk-manager-1024x576.webp)
 
 ### System cleaner
 
@@ -164,6 +168,19 @@
 --------------------
 
 ## One More Thing
+
+
+### Deploy linux
+Yep, I mean that you can deploy linux on android phone.
+
+*Tools*
+
++ [linuxdeploy.apk](https://github.com/meefik/linuxdeploy/releases/download/2.2.1/linuxdeploy-2.2.1-243.apk)
++ [tutorial en](https://github.com/meefik/linuxdeploy/wiki/Installing-Kali-Linux-Guide)
++ tutorial zh
+   + [教程1](https://www.htcp.net/4431.html)
+   + [教程2](https://mlapp.cn/134.html)
+   + [教程3](https://my.oschina.net/zss1993/blog/1790223)
 
 
 
