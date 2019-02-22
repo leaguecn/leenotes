@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [Deep Spatial Feature Reconstruction for Partial Person Re-identification: Alignment-free Approach](#deep-spatial-feature-reconstruction-for-partial-person-re-identification-alignment-free-approach)
+    1. [Curve Reconstruction via the Global Statistics of Natural Curves](#curve-reconstruction-via-the-global-statistics-of-natural-curves)
     1. [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?](#can-spatiotemporal-3d-cnns-retrace-the-history-of-2d-cnns-and-imagenet)
     1. [Coding Kendall’s Shape Trajectories for 3D Action Recognition](#coding-kendall%E2%80%99s-shape-trajectories-for-3d-action-recognition)
     1. [Augmenting Crowd-Sourced 3D Reconstructions using Semantic Detections](#augmenting-crowd-sourced-3d-reconstructions-using-semantic-detections)
@@ -27,6 +29,33 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+------------------
+**2019-02-22**
+
+#### Deep Spatial Feature Reconstruction for Partial Person Re-identification: Alignment-free Approach
+
+**部分人体重新识别的深度空间特征重建：无对齐方法**     
+
+*by Lingxiao He, Jian Liang, Haiqing Li and Zhenan Sun*      
+**Abstract**     
+Partial person re-identification (re-id) is a challenging problem, where only several partial observations (images) of people are available for matching. However, few studies have provided flexible solutions to identifying a person in an image containing arbitrary part of the body. In this paper, we propose a fast and accurate matching method to address this problem. The proposed method leverages Fully Convolutional Network (FCN) to generate fix-sized spatial feature maps such that pixel-level features are consistent. To match a pair of person images of different sizes, a novel method called Deep Spatial feature Reconstruction (DSR) is further developed to avoid explicit alignment. Specifically, DSR exploits the reconstructing error from popular dictionary learning models to calculate the similarity between different spatial feature maps. In that way, we expect that the proposed FCN can decrease the similarity of coupled images from different persons and increase that from the same person. Experimental results on two partial person datasets demonstrate the efficiency and effectiveness of the proposed method in comparison with several state-ofthe-art partial person re-id approaches. Additionally, DSR achieves competitive results on a benchmark person dataset Market1501 with 83.58% Rank-1 accuracy.
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Deep-Spatial-Feature-Reconstruction-for-Partial-Person-Re-identification-Alignment-free-Approach.png)
+
+
+--------
+
+#### Curve Reconstruction via the Global Statistics of Natural Curves
+**自然曲线全局统计的曲线重建**     
+*by Ehud Barnea and Ohad Ben-Shahar*
+**Abstract**
+
+Reconstructing the missing parts of a curve has been the subject of much computational research, with applications in image inpainting, object synthesis, etc. Different approaches for solving that problem are typically based on processes that seek visually pleasing or perceptually plausible completions. In this work we focus on reconstructing the underlying physically likely shape by utilizing the global statistics of natural curves. More specifically, we develop a reconstruction model that seeks the mean physical curve for a given inducer configuration. This simple model is both straightforward to compute and it is receptive to diverse additional information, but it requires enough samples for all curve configurations, a practical requirement that limits its effective utilization. To address this practical issue we explore and exploit statistical geometrical properties of natural curves, and in particular, we show that in many cases the mean curve is scale invariant and oftentimes it is extensible. This, in turn, allows to boost the number of examples and thus the robustness of the statistics and its applicability. The reconstruction results are not only more physically plausible but they also lead to important insights on the reconstruction problem, including an elegant explanation why certain inducer configurations are more likely to yield consistent perceptual completions than others.
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Curve-Reconstruction-via-the-Global-Statistics-of-Natural-Curves.png)
+
+
 
 ----------------------
 
