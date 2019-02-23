@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map](#dels-3d-deep-localization-and-segmentation-with-a-3d-semantic-map)
+    1. [Deeply Learned Filter Response Functions for Hyperspectral Reconstruction](#deeply-learned-filter-response-functions-for-hyperspectral-reconstruction)
     1. [Deep Spatial Feature Reconstruction for Partial Person Re-identification: Alignment-free Approach](#deep-spatial-feature-reconstruction-for-partial-person-re-identification-alignment-free-approach)
     1. [Curve Reconstruction via the Global Statistics of Natural Curves](#curve-reconstruction-via-the-global-statistics-of-natural-curves)
     1. [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?](#can-spatiotemporal-3d-cnns-retrace-the-history-of-2d-cnns-and-imagenet)
@@ -29,6 +31,33 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+-----------------
+
+**2019-02-23**
+
+#### DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map
+*by Peng Wang, Ruigang Yang, Binbin Cao, Wei Xu, Yuanqing Lin*
+
+
+**Abstract**     
+For applications such as augmented reality, autonomous driving, self-localization/camera pose estimation and scene parsing are crucial technologies. In this paper, we propose a unified framework to tackle these two problems simultaneously. The uniqueness of our design is a sensor fusion scheme which integrates camera videos, motion sensors (GPS/IMU), and a 3D semantic map in order to achieve robustness and efficiency of the system. Specifically, we first have an initial coarse camera pose obtained from consumer-grade GPS/IMU, based on which a label map can be rendered from the 3D semantic map. Then, the rendered label map and the RGB image are jointly fed into a pose CNN, yielding a corrected camera pose. In addition, to incorporate temporal information, a multi-layer recurrent neural network (RNN) is further deployed improve the pose accuracy. Finally, based on the pose from RNN, we render a new label map, which is fed together with the RGB image into a segment CNN which produces perpixel semantic label. In order to validate our approach, we build a dataset with registered 3D point clouds and video camera images. Both the point clouds and the images are semantically-labeled. Each video frame has ground truth pose from highly accurate motion sensors. We show that practically, pose estimation solely relying on images like PoseNet [25] may fail due to street view confusion, and it is important to fuse multiple sensors. Finally, various ablation studies are performed, which demonstrate the effectiveness of the proposed system. In particular, we show that scene parsing and pose estimation are mutually beneficial to achieve a more robust and accurate system.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/DeLS-3D-Deep-Localization-and-Segmentation-with-a-3D-Semantic-Map.png)
+
+
+----------------
+#### Deeply Learned Filter Response Functions for Hyperspectral Reconstruction
+
+*by Shijie Nie, Lin Gu, Yinqiang Zheng, Antony Lam, Nobutaka Ono, Imari Sato*
+
+
+**Abstract**
+Hyperspectral reconstruction from RGB imaging has recently achieved significant progress via sparse coding and deep learning. However, a largely ignored fact is that existing RGB cameras are tuned to mimic human trichromatic perception, thus their spectral responses are not necessarily optimal for hyperspectral reconstruction. In this paper, rather than use RGB spectral responses, we simultaneously learn optimized camera spectral response functions (to be implemented in hardware) and a mapping for spectral reconstruction by using an end-to-end network. Our core idea is that since camera spectral filters act in effect like the convolution layer, their response functions could be optimized by training standard neural networks. We propose two types of designed filters: a three-chip setup without spatial mosaicing and a single-chip setup with a Bayer-style 2x2 filter array. Numerical simulations verify the advantages of deeply learned spectral responses compared to existing RGB cameras. More interestingly, by considering physical restrictions in the design process, we are able to realize the deeply learned spectral response functions by using modern film filter production technologies, and thus construct data-inspired multispectral cameras for snapshot hyperspectral imaging.
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Deeply-Learned-Filter-Response-Functions-for-Hyperspectral-Reconstruction.png)
 
 ------------------
 **2019-02-22**
