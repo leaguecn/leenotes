@@ -5,6 +5,7 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition](#disentangling-features-in-3d-face-shapes-for-joint-face-reconstruction-and-recognition)
     1. [Dense 3D Regression for Hand Pose Estimation](#dense-3d-regression-for-hand-pose-estimation)
     1. [Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals](#depth-based-3d-hand-pose-estimation-from-current-achievements-to-future-goals)
     1. [DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map](#dels-3d-deep-localization-and-segmentation-with-a-3d-semantic-map)
@@ -33,6 +34,31 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+-----
+**2019-02-25 break of day**     
+
+#### Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition
+
+*by Feng Liu, Ronghang Zhu, Dan Zeng, Qijun Zhao, and Xiaoming Liu*      
+
+**Abstract**      
+This paper proposes an encoder-decoder network to disentangle shape features during 3D face reconstruction from single 2D images, such that the tasks of reconstructing accurate 3D face shapes and learning discriminative shape features for face recognition can be accomplished simultaneously. Unlike existing 3D face reconstruction methods, our proposed method directly regresses dense 3D face shapes from single 2D images, and tackles identity and residual (i.e., non-identity) components in 3D face shapes explicitly and separately based on a composite 3D face shape model with latent representations. We devise a training process for the proposed network with a joint loss measuring both face identification error and 3D face shape reconstruction error. To construct training data we develop a method for fitting 3D morphable model (3DMM) to multiple 2D images of a subject. Comprehensive experiments have been done on MICC, BU3DFE, LFW and YTF databases. The results show that our method expands the capacity of 3DMM for capturing discriminative shape features and facial detail, and thus outperforms existing methods both in 3D face reconstruction accuracy and in face recognition accuracy.     
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Disentangling-Features-in-3D-Face-Shapes-for-Joint-Face-Reconstruction-and-Recognition.png)
+
+
+----------
+##### Disentangling 3D Pose in A Dendritic CNN for Unconstrained 2D Face Alignment
+
+*by Amit Kumar Rama Chellappa*     
+
+**Abstract**     
+
+Heatmap regression has been used for landmark localization for quite a while now. Most of the methods use a very deep stack of bottleneck modules for heatmap classification stage, followed by heatmap regression to extract the keypoints. In this paper, we present a single dendritic CNN, termed as Pose Conditioned Dendritic Convolution Neural Network (PCD-CNN), where a classification network is followed by a second and modular classification network, trained in an end to end fashion to obtain accurate landmark points. Following a Bayesian formulation, we disentangle the 3D pose of a face image explicitly by conditioning the landmark estimation on pose, making it different from multi-tasking approaches. Extensive experimentation shows that conditioning on pose reduces the localization error by making it agnostic to face pose. The proposed model can be extended to yield variable number of landmark points and hence broadening its applicability to other datasets. Instead of increasing depth or width of the network, we train the CNN efficiently with Mask-Softmax Loss and hard sample mining to achieve upto 15% reduction in error compared to state-of-the-art methods for extreme and medium pose face images from challenging datasets including AFLW, AFW, COFW and IBUG.
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Disentangling-3D-Pose-in-A-Dendritic-CNN-for-Unconstrained-2D-Face-Alignment.png)
+
 
 -----------
 **2019-02-24**
