@@ -55,7 +55,7 @@ We present a simple and effective method for 3D hand pose estimation from a sing
 **Abstract**      
 
 In this paper, we strive to answer two questions: What is the current state of 3D hand pose estimation from depth images? And, what are the next challenges that need to be tackled? Following the successful Hands In the Million Challenge (HIM2017), we investigate the top 10 state-ofthe-art methods on three tasks: single frame 3D pose estimation, 3D hand tracking, and hand pose estimation during object interaction. We analyze the performance of different CNN structures with regard to hand shape, joint visibility, view point and articulation distributions. Our findings include: (1) isolated 3D hand pose estimation achieves low mean errors (10 mm) in the view point range of [70, 120] degrees, but it is far from being solved for extreme view points; (2) 3D volumetric representations outperform 2D CNNs, better capturing the spatial structure of the depth data; (3) Discriminative methods still generalize poorly to unseen hand shapes; (4) While joint occlusions pose a challenge for most methods, explicit modeling of structure constraints can significantly narrow the gap between errors on visible and occluded joints.       
-
+//在本文，我们力求回答两个问题：当前的深度图像三维手势估计处于什么阶段？下一个需要解决的挑战又是什么？跟随在HIM2017大赛中的成功手势识别方法，我们研究了最顶尖的10种方法在物体交互的三个任务：单帧三维姿态估计、三维手掌处理和手势估计中的表现。我们分析了基于手掌形状处理、联结可视，视点和表达配置的不同CNN结构的性能。我们发现以下几点：1）孤立的三维手势估计在文章[70, 120]所提角度的视点取得了低均差的结果，但是极限视点下的问题远没解决；2）三维体积再现物优于二维CNNs，更好地从深度数据捕获空间结构；3）方法明显生成了劣质的不可见手型；4）当联结闭合手势是多数方法的问题，明确的结构约束模型可以急剧缩小误差在可视和闭合接点。      
 
 
 
