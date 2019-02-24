@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [Dense 3D Regression for Hand Pose Estimation](#dense-3d-regression-for-hand-pose-estimation)
+    1. [Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals](#depth-based-3d-hand-pose-estimation-from-current-achievements-to-future-goals)
     1. [DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map](#dels-3d-deep-localization-and-segmentation-with-a-3d-semantic-map)
     1. [Deeply Learned Filter Response Functions for Hyperspectral Reconstruction](#deeply-learned-filter-response-functions-for-hyperspectral-reconstruction)
     1. [Deep Spatial Feature Reconstruction for Partial Person Re-identification: Alignment-free Approach](#deep-spatial-feature-reconstruction-for-partial-person-re-identification-alignment-free-approach)
@@ -31,6 +33,34 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+-----------
+**2019-02-24**
+
+#### Dense 3D Regression for Hand Pose Estimation
+
+*by Chengde Wan, Thomas Probst, Luc Van Gool, and Angela Yao*
+
+**Abstract**    
+We present a simple and effective method for 3D hand pose estimation from a single depth frame. As opposed to previous state-of-the-art methods based on holistic 3D regression, our method works on dense pixel-wise estimation. This is achieved by careful design choices in pose parameterization, which leverages both 2D and 3D properties of depth map. Specifically, we decompose the pose parameters into a set of per-pixel estimations, i.e., 2D heat maps, 3D heat maps and unit 3D directional vector fields. The 2D/3D joint heat maps and 3D joint offsets are estimated via multitask network cascades, which is trained end-to-end. The pixel-wise estimations can be directly translated into a vote casting scheme. A variant of mean shift is then used to aggregate local votes while enforcing consensus between the the estimated 3D pose and the pixel-wise 2D and 3D estimations by design. Our method is efficient and highly accurate. On MSRA and NYU hand dataset, our method outperforms all previous state-of-the-art approaches by a large margin. On the ICVL hand dataset, our method achieves similar accuracy compared to the nearly saturated result obtained by [5] and outperforms various other proposed methods. Code is available online1.      
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Dense-3D-Regression-for-Hand-Pose-Estimation.png)
+
+----------
+
+#### Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals
+
+*by Shanxin Yuan, Guillermo Garcia-Hernando, Bjorn Stenger, etc.*
+
+**Abstract**      
+
+In this paper, we strive to answer two questions: What is the current state of 3D hand pose estimation from depth images? And, what are the next challenges that need to be tackled? Following the successful Hands In the Million Challenge (HIM2017), we investigate the top 10 state-ofthe-art methods on three tasks: single frame 3D pose estimation, 3D hand tracking, and hand pose estimation during object interaction. We analyze the performance of different CNN structures with regard to hand shape, joint visibility, view point and articulation distributions. Our findings include: (1) isolated 3D hand pose estimation achieves low mean errors (10 mm) in the view point range of [70, 120] degrees, but it is far from being solved for extreme view points; (2) 3D volumetric representations outperform 2D CNNs, better capturing the spatial structure of the depth data; (3) Discriminative methods still generalize poorly to unseen hand shapes; (4) While joint occlusions pose a challenge for most methods, explicit modeling of structure constraints can significantly narrow the gap between errors on visible and occluded joints.       
+
+
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Depth-Based-3D-Hand-Pose-Estimation@From-Current-Achievements-to-Future-Goals.png)
+
 
 -----------------
 
