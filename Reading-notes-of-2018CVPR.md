@@ -38,12 +38,12 @@
 **2019-02-24**
 
 #### Dense 3D Regression for Hand Pose Estimation
-
+**手势估计稠密三维回归**     
 *by Chengde Wan, Thomas Probst, Luc Van Gool, and Angela Yao*
 
 **Abstract**    
 We present a simple and effective method for 3D hand pose estimation from a single depth frame. As opposed to previous state-of-the-art methods based on holistic 3D regression, our method works on dense pixel-wise estimation. This is achieved by careful design choices in pose parameterization, which leverages both 2D and 3D properties of depth map. Specifically, we decompose the pose parameters into a set of per-pixel estimations, i.e., 2D heat maps, 3D heat maps and unit 3D directional vector fields. The 2D/3D joint heat maps and 3D joint offsets are estimated via multitask network cascades, which is trained end-to-end. The pixel-wise estimations can be directly translated into a vote casting scheme. A variant of mean shift is then used to aggregate local votes while enforcing consensus between the the estimated 3D pose and the pixel-wise 2D and 3D estimations by design. Our method is efficient and highly accurate. On MSRA and NYU hand dataset, our method outperforms all previous state-of-the-art approaches by a large margin. On the ICVL hand dataset, our method achieves similar accuracy compared to the nearly saturated result obtained by [5] and outperforms various other proposed methods. Code is available online1.      
-
+//我们提出了一种简单而有效的方法，用于从单一深度图像中估计三维手势。和以往的基于整体三维回归先进方法相反，我们的方法用于稠密的像素估计。通过在姿态参数化中细致的设计选择来完成这些估计，作用于二维和三维性质的深度图。明确来说，我们将姿态参数分解为一系列的像素级别的估计，如：二维热力图，三维热立体和联合的三维方向向量场。二维或三维联结热力图和三维联结补偿误差可以通过多任务网络结连估计，该网络是端对端训练的。像素集估计可以被直接解译为一种投票方案。然后使用均值平移的变形来聚合局部投票，同时通过设计在估计的三维姿势和像素方式的二维和三维估计之间实施一致性。我们的方法是有效且十分准确。在MARA和NYU两个手势数据集中，我们的方法优于了以往的先进方法很大一部分。在ICVL手势数据集中，我们的方法较完成较文章【5】中饱和结果相近准确率，并优于一些其他的方法。项目源码开放与网络【1】。      
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Dense-3D-Regression-for-Hand-Pose-Estimation.png)
 
 ----------
