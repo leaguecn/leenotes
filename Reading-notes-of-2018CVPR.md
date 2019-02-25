@@ -36,27 +36,27 @@
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
 
 -----
-**2019-02-25 break of day**     
+**2019-02-25 break of daye**     
 
 #### Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition
-
+**用于节点面部重建和识别的三维面部形状特征解缠**      
 *by Feng Liu, Ronghang Zhu, Dan Zeng, Qijun Zhao, and Xiaoming Liu*      
 
 **Abstract**      
 This paper proposes an encoder-decoder network to disentangle shape features during 3D face reconstruction from single 2D images, such that the tasks of reconstructing accurate 3D face shapes and learning discriminative shape features for face recognition can be accomplished simultaneously. Unlike existing 3D face reconstruction methods, our proposed method directly regresses dense 3D face shapes from single 2D images, and tackles identity and residual (i.e., non-identity) components in 3D face shapes explicitly and separately based on a composite 3D face shape model with latent representations. We devise a training process for the proposed network with a joint loss measuring both face identification error and 3D face shape reconstruction error. To construct training data we develop a method for fitting 3D morphable model (3DMM) to multiple 2D images of a subject. Comprehensive experiments have been done on MICC, BU3DFE, LFW and YTF databases. The results show that our method expands the capacity of 3DMM for capturing discriminative shape features and facial detail, and thus outperforms existing methods both in 3D face reconstruction accuracy and in face recognition accuracy.     
-
+//本文提出了一个编解码网络来解缠形状特征，在单张二维图像到三维面部重构期间。这样的话，重构准确的三维面部形状和学习面部识别的差异形状特征两项任务可以被同时完成。不像存在的三维面部重构方法，我们提出的方法直接重单张二维图像回归稠密三维面部形状，并基于潜在代表的合成三维面部形状模型明确并分别处理三维面部形状的确定和余留（如，非确定）成分。我们设计一个训练处理过程，用于含有在测量面部特征错误和三维面部形状重构误差的节点损失的提出网络。为了重构训练数据，我们提出了用于拟合三维形态模型（3DMM）来多样化目标二维图像。综合的实验已经被实施在MICC，BU3DFE，LFW和YTF数据集中。结果展示了我们的方法拓展了3DMM的捕获差别形状特征和面部细节的能力，并且由于当前存在的方法，无论是在三维面部重建精度还是在面部识别精度方面。     
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Disentangling-Features-in-3D-Face-Shapes-for-Joint-Face-Reconstruction-and-Recognition.png)
 
 
 ----------
 ##### Disentangling 3D Pose in A Dendritic CNN for Unconstrained 2D Face Alignment
-
+**用于非约束二维面部对齐的枝节CNN的三维姿态解缠**    
 *by Amit Kumar Rama Chellappa*     
 
 **Abstract**     
 
 Heatmap regression has been used for landmark localization for quite a while now. Most of the methods use a very deep stack of bottleneck modules for heatmap classification stage, followed by heatmap regression to extract the keypoints. In this paper, we present a single dendritic CNN, termed as Pose Conditioned Dendritic Convolution Neural Network (PCD-CNN), where a classification network is followed by a second and modular classification network, trained in an end to end fashion to obtain accurate landmark points. Following a Bayesian formulation, we disentangle the 3D pose of a face image explicitly by conditioning the landmark estimation on pose, making it different from multi-tasking approaches. Extensive experimentation shows that conditioning on pose reduces the localization error by making it agnostic to face pose. The proposed model can be extended to yield variable number of landmark points and hence broadening its applicability to other datasets. Instead of increasing depth or width of the network, we train the CNN efficiently with Mask-Softmax Loss and hard sample mining to achieve upto 15% reduction in error compared to state-of-the-art methods for extreme and medium pose face images from challenging datasets including AFLW, AFW, COFW and IBUG.
-
+//热力图回归以被用于路标定位较长一段时间。大部分的方法是使用一个瓶颈深栈模型来进行热力图的分类，随之使用热力图来提取关键点。在本文中，我们提出了一种树枝形CNN,叫做姿态条件树枝形卷积神经网络（PCD-CNN）。在该网络中，一个分类网络紧跟一个第二和模块化的分类网络，在一个端对端的风格中训练来获得精确的路标点。基于贝叶斯公式，我们明确使用条件化的在姿态的路标估计来解缠面部图形的三维姿态，使之不同于多任务方法。拓展实验显示了条件化姿态可以通过模糊面部姿态减少定位误差。所提模型可以被拓展来获得一系列的路标点并和拓宽它在其他数据集中的应用能力。而不是增加网络的深度和宽度，我们基于Mask-Softmax损失和用功的样本挖掘高效训练CNN来完成减少15%的误差，较其他的在AFLW、AFW、COFW和IBUG挑战数据集中极端和中度面部姿态图像中先进方法。      
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Disentangling-3D-Pose-in-A-Dendritic-CNN-for-Unconstrained-2D-Face-Alignment.png)
 
 
