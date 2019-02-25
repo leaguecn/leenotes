@@ -35,7 +35,12 @@
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
 
------
+
+
+------------------
+
+
+
 **2019-02-25 break of daye**     
 
 #### Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition
