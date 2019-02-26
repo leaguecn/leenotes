@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [Extreme 3D Face Reconstruction: Seeing Through Occlusions](#extreme-3d-face-reconstruction-seeing-through-occlusions)
+    1. [Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene](#factoring-shape-pose-and-layout-from-the-2d-image-of-a-3d-scene)
     1. [End-to-end learning of keypoint detector and descriptor for pose invariant 3D matching](#end-to-end-learning-of-keypoint-detector-and-descriptor-for-pose-invariant-3d-matching)
     1. [Erase or Fill? Deep Joint Recurrent Rain Removal and Reconstruction in Videos](#erase-or-fill-deep-joint-recurrent-rain-removal-and-reconstruction-in-videos)
     1. [Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition](#disentangling-features-in-3d-face-shapes-for-joint-face-reconstruction-and-recognition)
@@ -36,6 +38,36 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+----------------
+
+**2019-02-27**
+
+#### Extreme 3D Face Reconstruction: Seeing Through Occlusions
+*by Anh Tuan Tran, Tal Hassner, Iacopo Masi, Eran Paz, Yuval Nirkin, and Gerard Medioni*     
+
+**Abstract**     
+
+Existing single view, 3D face reconstruction methods can produce beautifully detailed 3D results, but typically only for near frontal, unobstructed viewpoints. We describe a system designed to provide detailed 3D reconstructions of faces viewed under extreme conditions, out of plane rotations, and occlusions. Motivated by the concept of bump mapping, we propose a layered approach which decouples estimation of a global shape from its mid-level details (e.g., wrinkles). We estimate a coarse 3D face shape which acts as a foundation and then separately layer this foundation with details represented by a bump map. We show how a deep convolutional encoder-decoder can be used to estimate such bump maps. We further show how this approach naturally extends to generate plausible details for occluded facial regions. We test our approach and its components extensively, quantitatively demonstrating the invariance of our estimated facial details. We further provide numerous qualitative examples showing that our method produces detailed 3D face shapes in viewing conditions where existing state of the art often break down.      
++ Result
+![](https://github.com/leaguecn/leenotes/raw/master/img/Extreme-3D-Face-Reconstruction-Seeing-Through-Occlusions-result.png)
++ Method overview
+![](https://github.com/leaguecn/leenotes/raw/master/img/Extreme-3D-Face-Reconstruction-Seeing-Through-Occlusions-method.png)
+
+-----
+
+#### Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene
+
+*by Shubham Tulsiani, Saurabh Gupta, David Fouhey, Alexei A. Efros, Jitendra Malik*
+
+**Abstract**     
+The goal of this paper is to take a single 2D image of a scene and recover the 3D structure in terms of a small set of factors: a layout representing the enclosing surfaces as well as a set of objects represented in terms of shape and pose. We propose a convolutional neural network-based approach to predict this representation and benchmark it on a large dataset of indoor scenes. Our experiments evaluate a number of practical design questions, demonstrate that we can infer this representation, and quantitatively and qualitatively demonstrate its merits compared to alternate representations.
+
+
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Factoring-Shape-Pose-and-Layout-from-the-2D-Image-of-a-3D-Scene.png)
+
+
 
 ------------------
 
