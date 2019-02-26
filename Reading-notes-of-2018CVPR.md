@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [End-to-end learning of keypoint detector and descriptor for pose invariant 3D matching](#end-to-end-learning-of-keypoint-detector-and-descriptor-for-pose-invariant-3d-matching)
+    1. [Erase or Fill? Deep Joint Recurrent Rain Removal and Reconstruction in Videos](#erase-or-fill-deep-joint-recurrent-rain-removal-and-reconstruction-in-videos)
     1. [Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition](#disentangling-features-in-3d-face-shapes-for-joint-face-reconstruction-and-recognition)
     1. [Dense 3D Regression for Hand Pose Estimation](#dense-3d-regression-for-hand-pose-estimation)
     1. [Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals](#depth-based-3d-hand-pose-estimation-from-current-achievements-to-future-goals)
@@ -35,13 +37,42 @@
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
 
-
-
 ------------------
 
+**2019-02-26**
+
+#### End-to-end learning of keypoint detector and descriptor for pose invariant 3D matching
+**用于姿态不变三维匹配的关键点检测子和描述子的端对端学习**     
+*by Georgios Georgakis, Srikrishna Karanam, Ziyan Wu, Jan Ernst, and Jana Koseck*
+
+**Abstract**      
+
+Finding correspondences between images or 3D scans is at the heart of many computer vision and image retrieval applications and is often enabled by matching local keypoint descriptors. Various learning approaches have been applied in the past to different stages of the matching pipeline, considering detection, description, or metric learning objectives. These objectives were typically addressed separately and most previous work has focused on image data. This paper proposes an end-to-end learning framework for keypoint detection and its representation (descriptor) for 3D depth maps or 3D scans, where the two can be jointly optimized towards task-specific objectives without a need for separate annotations. We employ a Siamese architecture augmented by a sampling layer and a novel score loss function which in turn affects the selection of region proposals. The positive and negative examples are obtained automatically by sampling corresponding region proposals based on their consistency with known 3D pose labels. Matching experiments with depth data on multiple benchmark datasets demonstrate the efficacy of the proposed approach, showing significant improvements over state-of-theart methods.    
+
++ method outline
+![](https://github.com/leaguecn/leenotes/raw/master/img/End-to-end-learning-of-keypoint-detector-and-descriptor-for-pose-invariant-3D-matching-outline.png)
++ overview of siamese architecture
+![](https://github.com/leaguecn/leenotes/raw/master/img/End-to-end-learning-of-keypoint-detector-and-descriptor-for-pose-invariant-3D-matching-architecture.png)
+
+---------------------
+
+#### Erase or Fill? Deep Joint Recurrent Rain Removal and Reconstruction in Videos
+**擦除还是填充？视频雨水移除和重建的深度联结回归**      
+*by Jiaying Liu, Wenhan Yang, Shuai Yang, Zongming Guo*     
+
+**Abstract**     
+
+In this paper, we address the problem of video rain removal by constructing deep recurrent convolutional networks. We visit the rain removal case by considering rain occlusion regions, i.e. the light transmittance of rain streaks is low. Different from additive rain streaks, in such rain occlusion regions, the details of background images are completely lost. Therefore, we propose a hybrid rain model to depict both rain streaks and occlusions. With the wealth of temporal redundancy, we build a Joint Recurrent Rain Removal and Reconstruction Network (J4R-Net) that seamlessly integrates rain degradation classification, spatial texture appearances based rain removal and temporal coherence based background details reconstruction. The rain degradation classification provides a binary map that reveals whether a location is degraded by linear additive streaks or occlusions. With this side information, the gate of the recurrent unit learns to make a trade-off between rain streak removal and background details reconstruction. Extensive experiments on a series of synthetic and real videos with rain streaks verify the superiority of the proposed method over previous state-of-the-art methods.       
+
++ show case
+![](https://github.com/leaguecn/leenotes/raw/master/img/Erase-or-Fill-Deep-Joint-Recurrent-Rain-Removal-and-Reconstruction-in-Videos.png)
++ Framework
+![](https://github.com/leaguecn/leenotes/raw/master/img/Erase-or-Fill-Deep-Joint-Recurrent-Rain-Removal-and-Reconstruction-in-Videos-framework.png)
+
+---------------------
 
 
-**2019-02-25 break of daye**     
+**2019-02-25 break of day**     
 
 #### Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition
 **用于节点面部重建和识别的三维面部形状特征解缠**      
