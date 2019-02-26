@@ -6,7 +6,7 @@ So it is just the recorder of my study
 
 ## Note Detail
 
-1. [MIT-TechReview-SustainableEnergy](https://github.com/leaguecn/leenotes/blob/master/MIT-TechReview-SustainableEnergy.md)
+1. [MIT-TechReview-SustainableEnergy](https://github.com/leaguecn/leenotes/blob/master/MIT-TechReview-SustainableEnergy.md)        
 *on 2019-02-26*     
 1. [Android awesome apps](https://github.com/leaguecn/leenotes/blob/master/Android-awesome-apps.md)      
 *on 2019-02-20*     
