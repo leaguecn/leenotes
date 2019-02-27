@@ -6,7 +6,6 @@ Github搭建个人博客
 1. [Hexo博客框架安装](#hexo%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E5%AE%89%E8%A3%85)
 1. [安装NexT等个性化主题](#%E5%AE%89%E8%A3%85next%E7%AD%89%E4%B8%AA%E6%80%A7%E5%8C%96%E4%B8%BB%E9%A2%98)
 1. [添加NexT主题插件](#%E6%B7%BB%E5%8A%A0next%E4%B8%BB%E9%A2%98%E6%8F%92%E4%BB%B6)
-1. [```](#)
 1. [多设备支持方案](#%E5%A4%9A%E8%AE%BE%E5%A4%87%E6%94%AF%E6%8C%81%E6%96%B9%E6%A1%88)
 1. [其他](#%E5%85%B6%E4%BB%96)
 
@@ -45,6 +44,7 @@ Github搭建个人博客
 到文本备存。
 
 ## Hexo博客框架安装
+
 **依赖环境：Node.js+npm**
 + 依赖环境安装教程
 ```
@@ -102,8 +102,8 @@ hexo server
 
 ```
 
-然后在浏览器中访问http://localhost:40000，将会看到类似如下的页面：
-![](hexo-server.png)
+然后在浏览器中访问http://localhost:40000，将会看到类似如下的页面：     
+![](https://github.com/leaguecn/leenotes/raw/master/img/hexo-server.png)      
 如果没有看到，那就是环境出了问题，根据不同的问题自行debug。
 
 + 发布到Github仓库
@@ -146,14 +146,16 @@ hexo clean && hexo g/generate && hexo d/deploy
     + hexo help #显示hexo帮助
 
 
-## 安装NexT等个性化主题
+## 安装NexT等个性化主题 
+
 其实就是将主题文件夹next拷贝到上述项目的主题文件夹theme中。[HexT主题](https://theme-next.org/)风格简洁、优雅，目前已经更新到6.0.6版本（2019-02）。
 
 
 + 进入上述Hexo新建项目文件夹并下载主题文件到主题theme文件夹下：
+
 ```
-$ cd hexo
-$ git clone https://github.com/theme-next/hexo-theme-next themes/next
+cd hexo
+git clone https://github.com/theme-next/hexo-theme-next themes/next
 ```
 
 + 修改配置文件的主题属性
@@ -168,7 +170,8 @@ theme: next
 #参照上一节，生成静态网页然后配置到仓库
 hexo clean && hexo g/generate && hexo d/deploy
 ```
-效果如下：
+
+效果如下：       
 ![](https://github.com/leaguecn/leenotes/raw/master/img/hexo-server.png)
 
 ## 添加NexT主题插件
@@ -252,7 +255,9 @@ QQ：10001
 Email: 10001@qq.com
 
 ```
+
 + 编辑博客的标签和分类
+
 ```
 ---
 title: Github搭建个人博客
@@ -282,13 +287,11 @@ hexo clean && hexo g/generate && hexo d/deploy
 
 
 
-+ 新建分支对hexo的工程文件进行备份
-在原来的部署仓库中新建另一分支backup/hexo等分支
-
-将分支设为默认分支
++ 新建分支对hexo的工程文件进行备份在原来的部署仓库中新建另一分支backup/hexo等分支，将分支设为默认分支
 
 
 + 在原部署设备上clone部署仓库的默认分支backup/hexo
+
 ```
 git clone https://github.com/{username}/{username}.github.io.git
 ```
@@ -300,6 +303,7 @@ git clone https://github.com/{username}/{username}.github.io.git
 cp hexoprjs {username}.github.io/
 
 ```
+
 + 推送所有的部署文件
 
 ```
