@@ -44,11 +44,14 @@
 **2019-02-27**
 
 #### Extreme 3D Face Reconstruction: Seeing Through Occlusions
+**极限三维目标重建：透视遮挡**     
 *by Anh Tuan Tran, Tal Hassner, Iacopo Masi, Eran Paz, Yuval Nirkin, and Gerard Medioni*     
 
 **Abstract**     
 
 Existing single view, 3D face reconstruction methods can produce beautifully detailed 3D results, but typically only for near frontal, unobstructed viewpoints. We describe a system designed to provide detailed 3D reconstructions of faces viewed under extreme conditions, out of plane rotations, and occlusions. Motivated by the concept of bump mapping, we propose a layered approach which decouples estimation of a global shape from its mid-level details (e.g., wrinkles). We estimate a coarse 3D face shape which acts as a foundation and then separately layer this foundation with details represented by a bump map. We show how a deep convolutional encoder-decoder can be used to estimate such bump maps. We further show how this approach naturally extends to generate plausible details for occluded facial regions. We test our approach and its components extensively, quantitatively demonstrating the invariance of our estimated facial details. We further provide numerous qualitative examples showing that our method produces detailed 3D face shapes in viewing conditions where existing state of the art often break down.      
+//现有的单视，三维重建方法可以产生漂亮细致的三维结果，但是仅典型适用于近前和非阻碍视点。我们提出了一个设计系统，用于提供详细的三维面部重建，在极端条件、超出平面旋转和闭塞视角情况下。受碰撞制凹凸图想法的激励，我们提出了一种层叠方法，可以降底从中等细节（如细纹）中的全局形状多次估计。我们估计一个粗略三维面部形状作为基础和分别使用凹凸图的细节呈现来铺张这些基础。我们展示了怎样使用一个深度卷积编解码估计这样的凹凸图。我们更进一步展示怎么将这种方法自然拓展到生成可信细节，为闭塞面部区域。我们测试所提方法和它的部件可拓，定性阐明了我们估计的面部细节尺度不变。我们进一步提供了多种定性样例来展示了我们的方法可以提供详细的三维面部形状在现存先进方法经常无效的视角条件下。      
+
 + Result
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Extreme-3D-Face-Reconstruction-Seeing-Through-Occlusions-result.png)
 + Method overview
@@ -57,12 +60,12 @@ Existing single view, 3D face reconstruction methods can produce beautifully det
 -----
 
 #### Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene
-
+**从三维场景的二维图像中分解形状、姿态和布局**     
 *by Shubham Tulsiani, Saurabh Gupta, David Fouhey, Alexei A. Efros, Jitendra Malik*
 
 **Abstract**     
-The goal of this paper is to take a single 2D image of a scene and recover the 3D structure in terms of a small set of factors: a layout representing the enclosing surfaces as well as a set of objects represented in terms of shape and pose. We propose a convolutional neural network-based approach to predict this representation and benchmark it on a large dataset of indoor scenes. Our experiments evaluate a number of practical design questions, demonstrate that we can infer this representation, and quantitatively and qualitatively demonstrate its merits compared to alternate representations.
-
+The goal of this paper is to take a single 2D image of a scene and recover the 3D structure in terms of a small set of factors: a layout representing the enclosing surfaces as well as a set of objects represented in terms of shape and pose. We propose a convolutional neural network-based approach to predict this representation and benchmark it on a large dataset of indoor scenes. Our experiments evaluate a number of practical design questions, demonstrate that we can infer this representation, and quantitatively and qualitatively demonstrate its merits compared to alternate representations.      
+//本文的目的是拍摄单张场景二维图像然后在微小集合因子环境恢复三维结构：代表封闭表面的一个布局以及表示形状和姿态的一组对象。我们提出了一种卷积神经网络方法来预测这种表示，并在大数据集的室内场景进行基准测试。我们的实验估计了一系列的实践设计问题，阐明了我们可以推断这种表示，并定量和定性地说明了与其他方法相比优势。    
 
 
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Factoring-Shape-Pose-and-Layout-from-the-2D-Image-of-a-3D-Scene.png)
