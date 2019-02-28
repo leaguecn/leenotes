@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [FeaStNet: Feature-Steered Graph Convolutions for 3D Shape Analysis](#feastnet-feature-steered-graph-convolutions-for-3d-shape-analysis)
+    1. [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net](#fast-and-furious-real-time-end-to-end-3d-detection-tracking-and-motion-forecasting-with-a-single-convolutional-net)
     1. [Extreme 3D Face Reconstruction: Seeing Through Occlusions](#extreme-3d-face-reconstruction-seeing-through-occlusions)
     1. [Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene](#factoring-shape-pose-and-layout-from-the-2d-image-of-a-3d-scene)
     1. [End-to-end learning of keypoint detector and descriptor for pose invariant 3D matching](#end-to-end-learning-of-keypoint-detector-and-descriptor-for-pose-invariant-3d-matching)
@@ -38,6 +40,40 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+---------------
+
+
+**2019-02-28**
+
+#### FeaStNet: Feature-Steered Graph Convolutions for 3D Shape Analysis
+
+**用于三维形状分析的特征驱动图卷积网络（FeaStNet）**
+
+*by Nitika Verma, Edmond Boyer, Jakob Verbeek*    
+
+**Abstract**      
+Convolutional neural networks (CNNs) have massively impacted visual recognition in 2D images, and are now ubiquitous in state-of-the-art approaches. CNNs do not easily extend, however, to data that are not represented by regular grids, such as 3D shape meshes or other graphstructured data, to which traditional local convolution operators do not directly apply. To address this problem, we propose a novel graph-convolution operator to establish correspondences between filter weights and graph neighborhoods with arbitrary connectivity. The key novelty of our approach is that these correspondences are dynamically computed from features learned by the network, rather than relying on predefined static coordinates over the graph as in previous work. We obtain excellent experimental results that significantly improve over previous state-of-the-art shape correspondence results. This shows that our approach can learn effective shape representations from raw input coordinates, without relying on shape descriptors.       
+//卷积神经网络CNNs在二维图像时代曾大规模影响视觉识别，现在是普遍的先进方法。然而CNNs不轻易拓展到被常规网格表示的数据，例如三维形状网格或其他的图构数据，和传统局部卷积操作直接应用的数据。为了解决这个问题，我们提出了一种新的图卷积操作子来建立滤波器权重和图任意连结邻近两者间的相似。我们方法重要的创新是这些相似是由网络学习特征动态计算的，而不是依赖像在先前工作预定义的静态图坐标。我们获得了一个非常好的实验结果，显著提高了之前的先进的形状相似结果。展示了我们的方法可以从原始的输入坐标有效学习形状代表，而不依赖形状描述子。
+
++ 标准CNN     
+![](https://github.com/leaguecn/leenotes/raw/master/img/FeaStNet-Feature-Steered-Graph-Convolutions-for-3D-Shape-Analysis-cnn.png)
+
++ 多尺度图卷积结构     
+![](https://github.com/leaguecn/leenotes/raw/master/img/FeaStNet-Feature-Steered-Graph-Convolutions-for-3D-Shape-Analysis-msgc.png)
+
+-------------
+#### Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net
+**快速和迅猛：实时的端对端三维检测、追踪和单层卷积网络运动预报**
+*by Wenjie Luo, Bin Yang and Raquel Urtasun*      
+
+**Abstract**        
+
+In this paper we propose a novel deep neural network that is able to jointly reason about 3D detection, tracking and motion forecasting given data captured by a 3D sensor. By jointly reasoning about these tasks, our holistic approach is more robust to occlusion as well as sparse data at range. Our approach performs 3D convolutions across space and time over a bird’s eye view representation of the 3D world, which is very efficient in terms of both memory and computation. Our experiments on a new very large scale dataset captured in several north american cities, show that we can outperform the state-of-the-art by a large margin. Importantly, by sharing computation we can perform all tasks in as little as 30 ms.       
+//在本文中，我们提出了一个新颖的深度神经网络，可以同时用于推理三维检测、追踪和给定三维传感器捕捉数据运动预测。通过联结的推理这些任务，我们整体的方法在闭塞和稀疏数据一定程度上更加稳健。我们的方法在一个三维世界表示的鸟览视觉交叉时空运行一个三维卷积，在计算机和存储方面十分高效。我们在新的大尺度数据集，拍摄于几个北美城市，进行实验，显示了我们地方法可以超越先进方法一大截。重要的是，通过共享计算我们可以在短短的30ms处理所有的任务。      
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Fast-and-Furious@-Real-Time-End-to-End-3D-Detection-Tracking-and-Motion-Forecasting-with-a-Single-Convolutional-Net.png)
+
 
 ----------------
 
