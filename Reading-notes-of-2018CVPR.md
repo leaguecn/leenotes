@@ -5,6 +5,8 @@
 <!-- MarkdownTOC levels="1,2,3,4" autolink="true" style="ordered" -->
 
 1. [3D pose or shape reconstruction](#3d-pose-or-shape-reconstruction)
+    1. [First-Person Hand Action Benchmark with RGB-D Videos and 3D Hand Pose Annotations](#first-person-hand-action-benchmark-with-rgb-d-videos-and-3d-hand-pose-annotations)
+    1. [Feature Mapping for Learning Fast and Accurate 3D Pose Inference from Synthetic Images](#feature-mapping-for-learning-fast-and-accurate-3d-pose-inference-from-synthetic-images)
     1. [FeaStNet: Feature-Steered Graph Convolutions for 3D Shape Analysis](#feastnet-feature-steered-graph-convolutions-for-3d-shape-analysis)
     1. [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net](#fast-and-furious-real-time-end-to-end-3d-detection-tracking-and-motion-forecasting-with-a-single-convolutional-net)
     1. [Extreme 3D Face Reconstruction: Seeing Through Occlusions](#extreme-3d-face-reconstruction-seeing-through-occlusions)
@@ -40,6 +42,40 @@
 ### 3D pose or shape reconstruction
 
 *Reading notes of 2018CVPR, Computer Vision & Pattern Recognition 2018,  processings selected in 3D reconstruction aspect.*
+
+-----------
+**2019-03-01**    
+
+
+#### First-Person Hand Action Benchmark with RGB-D Videos and 3D Hand Pose Annotations
+
+*by Guillermo Garcia-Hernando, Shanxin Yuan, Seungryul Baek, Tae-Kyun Kim*    
+
+
+**Abstract**    
+
+In this work we study the use of 3D hand poses to recognize first-person dynamic hand actions interacting with 3D objects. Towards this goal, we collected RGB-D video sequences comprised of more than 100K frames of 45 daily hand action categories, involving 26 different objects in several hand configurations. To obtain hand pose annotations, we used our own mo-cap system that automatically infers the 3D location of each of the 21 joints of a hand model via 6 magnetic sensors and inverse kinematics. Additionally, we recorded the 6D object poses and provide 3D object models for a subset of hand-object interaction sequences. To the best of our knowledge, this is the first benchmark that enables the study of first-person hand actions with the use of 3D hand poses. We present an extensive experimental evaluation of RGB-D and pose-based action recognition by 18 baselines/state-of-the-art approaches. The impact of using appearance features, poses, and their combinations are measured, and the different training/testing protocols are evaluated. Finally, we assess how ready the 3D hand pose estimation field is when hands are severely occluded by objects in egocentric views and its influence on action recognition. From the results, we see clear benefits of using hand pose as a cue for action recognition compared to other data modalities. Our dataset and experiments can be of interest to communities of 3D hand pose estimation, 6D object pose, and robotics as well as action recognition.     
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/First-Person-Hand-Action-Benchmark-with-RGB-D-Videos-and-3D-Hand-Pose-Annotations.png)
+
+
+------
+
+
+#### Feature Mapping for Learning Fast and Accurate 3D Pose Inference from Synthetic Images
+
+*by Mahdi Rad1, Markus Oberweger, Vincent Lepetit*     
+
+
+**Abstract**      
+
+We propose a simple and efficient method for exploiting synthetic images when training a Deep Network to predict a 3D pose from an image. The ability of using synthetic images for training a Deep Network is extremely valuable as it is easy to create a virtually infinite training set made of such images, while capturing and annotating real images can be very cumbersome. However, synthetic images do not resemble real images exactly, and using them for training can result in suboptimal performance. It was recently shown that for exemplar-based approaches, it is possible to learn a mapping from the exemplar representations of real images to the exemplar representations of synthetic images. In this paper, we show that this approach is more general, and that a network can also be applied after the mapping to infer a 3D pose: At run-time, given a real image of the target object, we first compute the features for the image, map them to the feature space of synthetic images, and finally use the resulting features as input to another network which predicts the 3D pose. Since this network can be trained very effectively by using synthetic images, it performs very well in practice, and inference is faster and more accurate than with an exemplar-based approach. We demonstrate our approach on the LINEMOD dataset for 3D object pose estimation from color images, and the NYU dataset for 3D hand pose estimation from depth maps. We show that it allows us to outperform the state-of-the-art on both datasets.      
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/Feature-Mapping-for-Learning-Fast-and-Accurate-3D-Pose-Inference-from-Synthetic-Images.png)
+
+
+
+
 
 ---------------
 
