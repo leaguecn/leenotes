@@ -48,14 +48,14 @@
 
 
 #### First-Person Hand Action Benchmark with RGB-D Videos and 3D Hand Pose Annotations
-
+**基于RGB-D视频和三维手势标注的人体手掌动作基第一人称准测试数据**     
 *by Guillermo Garcia-Hernando, Shanxin Yuan, Seungryul Baek, Tae-Kyun Kim*    
 
 
 **Abstract**    
 
 In this work we study the use of 3D hand poses to recognize first-person dynamic hand actions interacting with 3D objects. Towards this goal, we collected RGB-D video sequences comprised of more than 100K frames of 45 daily hand action categories, involving 26 different objects in several hand configurations. To obtain hand pose annotations, we used our own mo-cap system that automatically infers the 3D location of each of the 21 joints of a hand model via 6 magnetic sensors and inverse kinematics. Additionally, we recorded the 6D object poses and provide 3D object models for a subset of hand-object interaction sequences. To the best of our knowledge, this is the first benchmark that enables the study of first-person hand actions with the use of 3D hand poses. We present an extensive experimental evaluation of RGB-D and pose-based action recognition by 18 baselines/state-of-the-art approaches. The impact of using appearance features, poses, and their combinations are measured, and the different training/testing protocols are evaluated. Finally, we assess how ready the 3D hand pose estimation field is when hands are severely occluded by objects in egocentric views and its influence on action recognition. From the results, we see clear benefits of using hand pose as a cue for action recognition compared to other data modalities. Our dataset and experiments can be of interest to communities of 3D hand pose estimation, 6D object pose, and robotics as well as action recognition.     
-
+//在本文工作中，我们研究了使用三维手势识别与三维目标交互的第一人称动态手掌动作。对于这个目标，我们收集了RGB-D的视频序列，由超过45个日常手掌动作类别的10W帧图像的组成，涉及到26种不同的目标在几个手掌的配置中。为了获得手势的标注，我们使用我们自己的mo-cap系统自动地推断每一个手掌模型的21个关节的三维位置，通过6个磁强传感器和方向运动。而且，我们记录了六维的目标姿态和为次级手掌目标交互序列提供三维目标模型。据我们所了解，这是首个触发使用三维手势的第一人称手掌动作研究的基准数据集。我们展示了一个拓展的实验RGB-D估计和基于姿势的的动作识别，通过18个基础或先进的方法。使用表面特征、姿态和它们的结合体的影响已经被测试，且不同点额训练测试规定被评估。最后，我们估算了当手掌在相机自运动视角下呗目标严重遮挡情况下，三维手势估计领域是否已经完全准备妥当和它在动作识别中产生影响。从结果上看，我们清晰看到使用手势作为动作识别的索引，教其他数据形态有益。我们的数据集和实验会是三维手势估计、六维目标姿态和机器人以及动作识别社区交流的关注。     
 ![](https://github.com/leaguecn/leenotes/raw/master/img/First-Person-Hand-Action-Benchmark-with-RGB-D-Videos-and-3D-Hand-Pose-Annotations.png)
 
 
@@ -64,13 +64,14 @@ In this work we study the use of 3D hand poses to recognize first-person dynamic
 
 #### Feature Mapping for Learning Fast and Accurate 3D Pose Inference from Synthetic Images
 
-*by Mahdi Rad1, Markus Oberweger, Vincent Lepetit*     
+**合成图像快速、精确的三维姿态推理的特征映射**
 
+*by Mahdi Rad1, Markus Oberweger, Vincent Lepetit*    
 
 **Abstract**      
 
 We propose a simple and efficient method for exploiting synthetic images when training a Deep Network to predict a 3D pose from an image. The ability of using synthetic images for training a Deep Network is extremely valuable as it is easy to create a virtually infinite training set made of such images, while capturing and annotating real images can be very cumbersome. However, synthetic images do not resemble real images exactly, and using them for training can result in suboptimal performance. It was recently shown that for exemplar-based approaches, it is possible to learn a mapping from the exemplar representations of real images to the exemplar representations of synthetic images. In this paper, we show that this approach is more general, and that a network can also be applied after the mapping to infer a 3D pose: At run-time, given a real image of the target object, we first compute the features for the image, map them to the feature space of synthetic images, and finally use the resulting features as input to another network which predicts the 3D pose. Since this network can be trained very effectively by using synthetic images, it performs very well in practice, and inference is faster and more accurate than with an exemplar-based approach. We demonstrate our approach on the LINEMOD dataset for 3D object pose estimation from color images, and the NYU dataset for 3D hand pose estimation from depth maps. We show that it allows us to outperform the state-of-the-art on both datasets.      
-
+//我们提出了一种简单有效的方法用于在当训练一个深度网络用于预测图像中的三维姿态时，开发合成图像。使用合成图像来训练一个深度网络的能力是十分有意义的，因为它可以轻易创建一个虚拟无限的训练集合，由这样的合成图像组成。而捕捉和标注真实的图像却十分困难。然而，合成图像并不与真实图像非常相似，且使用它们来训练可以导致不理想的结果。最近出现了一种基于范例的方法，它可以从真实图像表示范例到合成图像表示范例中学习一种映射。在本文中，我们展示这种方法更加宽泛，且这种网络可以被应用于映射推理三维姿态之后：在实时情况下，给定一个真实的目标物体图像，我们首先计算图像的特征，映射它们到特征合成图像空间，最后使用结果特征作为输入到另外一个可以预测三维姿态的网络。由于网络已经被使用合成图像训练的非常到位，它的实际性能非常好，推测非常快以及比使用基于范例方法更加准确。在LINEMOD三维目标姿态估计的彩色图像数据集和NYU三维手势估计深度图数据集上，我们证明了我们的方法。显示了它在两种数据集上均优于先进的方法。    
 ![](https://github.com/leaguecn/leenotes/raw/master/img/Feature-Mapping-for-Learning-Fast-and-Accurate-3D-Pose-Inference-from-Synthetic-Images.png)
 
 
