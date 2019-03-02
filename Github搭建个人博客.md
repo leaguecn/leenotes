@@ -25,17 +25,6 @@ Github搭建个人博客
 + 5）多设备支持方案   
 + 6）其他   
 
-搭建流程为：
-<!-- 甘地图 -->
-
-```mermaid
-graph LR
-
-step1(新建仓库)-->step2(安装博客框架)
-step2-->step3(安装主题)
-step3-->step4(添加主题插件)
-step4-->step5(多设备支持方案)
-```
 
 ----------
 
@@ -44,16 +33,15 @@ step4-->step5(多设备支持方案)
 
 请确认在该步骤前已经注册了一个[Github](https://github.com/)账号。
 
-+ 进入https://github.com/{your github username}/页面，确保已经登陆账号；
-+ 点击右上角的+，会跳转到[新建界面](https://github.com/new)，然后必须以**username.github.io*名称新建一个人仓库，其他设置如下图所示：
++ 进入```https://github.com/{username}/```页面，确保已经登陆账号；
++ 点击右上角的+，会跳转到[新建界面](https://github.com/new)，然后必须以```{username}.github.io```名称新建一个人仓库，其他设置如下图所示：
 ![](https://github.com/leaguecn/leenotes/raw/master/img/github-build-blog-create-repo.png)
 
-+ 拷贝新建仓库的git地址，如：https://github.com/{username}/{username}.github.io.git
-到文本备存。
++ 拷贝新建仓库的git地址，如：```https://github.com/{username}/{username}.github.io.git```到文本备存。
 
 ## Hexo博客框架安装
 
-**依赖环境：Node.js+npm**     
++ 依赖环境：Node.js+npm
 
 + 依赖环境安装教程
 ```
@@ -81,8 +69,8 @@ hexo init <folder>
 cd <folder> && npm install
 
 ```
-+ 项目文件分析
 
++ 项目文件分析
 ```
 .
 ├── _config.yml#网站配置文件
@@ -93,30 +81,20 @@ cd <folder> && npm install
 |   └── _posts
 └── themes#主题文件夹，可以在文件夹下安装不同的主题，并修改相关主题风格
 
-
-```
-可以根据需要和要求对上述文件进行修改。
-
-+ 生成静态网页
-```
-hexo g/genarate
-
-```
-需要一秒左右的时间对整个项目工程进行编译，从而生成静态的网页。
-
-+ 调试网页
-
-```
-hexo server
+# 可以根据需要和要求对上述文件进行修改。
 
 ```
 
-然后在浏览器中访问http://localhost:40000，将会看到类似如下的页面：     
-![](https://github.com/leaguecn/leenotes/raw/master/img/hexo-server.png)      
-如果没有看到，那就是环境出了问题，根据不同的问题自行debug。
+
++ 生成静态网页```hexo g/genarate```需要一秒左右的时间对整个项目工程进行编译，从而生成静态的网页。
+
++ 调试网页```hexo server```然后在浏览器中访问http://localhost:40000，将会看到类似如下的页面：     
+![](https://github.com/leaguecn/leenotes/raw/master/img/hexo-server.png)     
+
+**如果没有看到，那就是环境出了问题，根据不同的问题自行debug。**
 
 + 发布到Github仓库
-如果调试没有出现问题，那就可以发布到Github上的仓库
+如果调试没有出现问题，那就可以发布到Github上的仓库，通过```https://{username}.github.io```访问验证配置是否正常，看到的界面应和调试所看到的界面一致。
 ```
 #首先安装hexo配置到git上的插件
 npm install hexo-deployer-git --save
@@ -129,10 +107,9 @@ deploy:
 #配置到Github
 hexo d/deploy
 ```
-通过https://{username}.github.io访问验证配置是否正常，看到的界面应和调试所看到的界面一致。
+  
 
 + 写博客
-
 ```
 #新建博客postname
 hexo new postname
@@ -161,7 +138,6 @@ hexo clean && hexo g/generate && hexo d/deploy
 
 
 + 进入上述Hexo新建项目文件夹并下载主题文件到主题theme文件夹下：
-
 ```
 cd hexo
 git clone https://github.com/theme-next/hexo-theme-next themes/next
@@ -174,7 +150,6 @@ theme: next
 ```
 
 + 应用新的主题配置
-
 ```
 #参照上一节，生成静态网页然后配置到仓库
 hexo clean && hexo g/generate && hexo d/deploy
@@ -186,21 +161,19 @@ hexo clean && hexo g/generate && hexo d/deploy
 ## 添加NexT主题插件
 
 + 修改主题风格
-
 ```
 #修改next文件夹下的_config.yml文件中的scheme字段属性
-
+-----
 # Schemes
 scheme: Muse
 #scheme: Mist
 #scheme: Pisces
 ```
 
-
 + 设定菜单
-
 ```
 #修改next文件夹下的_config.yml文件中的menu字段属性
+-----
 menu:
   home: / #主界面
   categories: /categories #分类
@@ -210,27 +183,24 @@ menu:
   #commonweal: /404.html
 
 #同时修改主目录下的_config.yml文件的language字段属性为zh-CN.yml
+-----
 language: zh-CN
 
 ```
 
 + 修改布局
+    * sidebar
+    * avatar
+    * favoi.ico
+    * 社交账号
 
++ 增删部件
+    * 增加flagcount
+    * 增加文字统计
+    * 增加本站搜索
+    * 删除底部logo
 
-
-
-
-
-+ 添加部件
-
-
-
-
-
-
-
-+ 添加页面
-
++ 添加页面     
 ```
 #添加标签页面
 hexo new page tags
@@ -257,7 +227,7 @@ hexo new page about
 title: about
 date: 2019-02-21 19:13:13
 ---
-## 关于我
+##关于我
 
 一只学习中的小菜鸟，欢迎留言讨论。
 
@@ -265,12 +235,11 @@ From Xuzhou
 
 QQ：10001
 Email: 10001@qq.com
-
 ```
 
-+ 编辑博客的标签和分类
-
++ 编辑博客的标签和分类   
 ```
+
 ---
 title: Github搭建个人博客
 date: 2019-02-27
@@ -280,17 +249,10 @@ tags:
   - github
   - 博客
 categories: 教程
----
-...
-
 ```
 
++ 使更改生效/发布更改配置```hexo clean && hexo g/generate && hexo d/deploy```。
 
-+ 使更改生效/发布更改配置
-
-```
-hexo clean && hexo g/generate && hexo d/deploy
-```
 
 ## 多设备支持方案
 
@@ -298,13 +260,13 @@ hexo clean && hexo g/generate && hexo d/deploy
 多设备支持是为了方便在多种设备中更新博客，方案的思路如下图所示：
 
 
-
 + 新建分支对hexo的工程文件进行备份在原来的部署仓库中新建另一分支backup/hexo等分支，将分支设为默认分支
 
 
-+ 在原部署设备上clone部署仓库的默认分支backup/hexo
++ 克隆静态网页文件
 
 ```
+#在原部署设备上clone部署仓库的默认分支backup/hexo
 git clone https://github.com/{username}/{username}.github.io.git
 ```
 
@@ -352,6 +314,16 @@ git add . && git commit -m '- update' && git push
 
 ## 其他
 
++ 可能在其他设备上clone仓库中的backup/hexo分支后，```npm install```会出现问题，这时需要根据不同的bug去网上找解决方法来debug了。
++ 在其他设备上使用hexo deploy进行部署网页时，可能会遇到github page build不能运行的错误，同时会收到官方发来的Alert邮件，这时也是需要仁者见仁智者见智了。
++ 关于博客公式和流程图的支持，需要另外安装插件，对公式和流程图block进行render,这里简单给出教程：
+    + 公式支持mathjax,需要卸载```hexo-renderer-marked```安装``hexo-renderer-kramed``,然后在NexT主题配置文件激活以及在文章开头激活```mathjax: true```，具体参考[博客1](https://www.lefer.cn/posts/64106/)&[博客2](https://blog.csdn.net/wgshun616/article/details/81019687)。
+    + 流程图支持，需要下列模块之一安装:
+    ```
+    hexo-filter-mermaid-diagrams
+    hexo-filter-flowchart
+    hexo-filter-sequence 
+    ```
 
 
 **参考**
@@ -359,3 +331,6 @@ git add . && git commit -m '- update' && git push
 + 1 https://hexo.io/zh-cn/docs/
 + 2 https://theme-next.org/
 + 3 http://www.cnblogs.com/syd192/p/6074323.html
++ 4 https://www.lefer.cn/posts/64106/
++ 5 https://blog.csdn.net/wgshun616/article/details/81019687
++ 6 https://www.liuyude.com/How_to_make_your_HEXO_blog_support_handwriting_flowchart.html
