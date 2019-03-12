@@ -6,9 +6,9 @@ So it is just the recorder of my study
 
 ## Note Detail
 
-
-
-
+1. [Reading-notes-of-2018CVPR](https://github.com/leaguecn/leenotes/blob/master/Reading-notes-of-2018CVPR-2.md)    
+1. [Github搭建个人博客](https://github.com/leaguecn/leenotes/blob/master/Github搭建个人博客.md)     
+*on 2019-03-02*     
 1. [MIT-TechReview-SustainableEnergy](https://github.com/leaguecn/leenotes/blob/master/MIT-TechReview-SustainableEnergy.md)        
 *on 2019-02-26*     
 1. [Android awesome apps](https://github.com/leaguecn/leenotes/blob/master/Android-awesome-apps.md)      
