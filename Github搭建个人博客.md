@@ -278,6 +278,14 @@ cp hexoprjs {username}.github.io/
 
 ```
 
++ 精简部署文件
+对合并后的部署文件进行精简，仅保留用于Hexo和NexT主题的部署文件。
+
+精简后的部署文件应该如下图所示：
+
+![](https://github.com/leaguecn/leenotes/raw/master/img/blog-deploy-backup-view.png)
+
+
 + 推送所有的部署文件
 
 ```
@@ -304,13 +312,17 @@ hexo new postname
 #发布博客
 hexo clean && hexo g/generate && hexo d/deploy
 
+#精简部署文件
+
 #同步配置文件到部署仓库
 git add . && git commit -m '- update' && git push
 
 ```
 总体思路是：拷贝默认分支中的hexo部署文件，安装npm插件，新建博客，每次发布博客后最好随手同步配置文件到分支backup/hexo。
 
+最后的博客效果图如下：
 
+![](https://github.com/leaguecn/leenotes/raw/master/img/blog-view.png)
 
 ## 其他
 
